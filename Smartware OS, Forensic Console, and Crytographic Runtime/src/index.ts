@@ -186,3 +186,19 @@ export {
   type UpgradePlan,
   type UpgradePlanStatus,
 } from "./controlPlane.js";
+
+export {
+  createContainerAdapterStub,
+  createInProcessAdapter,
+  createServerlessRuntime,
+  createWasmAdapterStub,
+  type InstanceState,
+  type MeteringEvent,
+  type RuntimeAdapter,
+  type RuntimeKind,
+  type ServerlessInvokeRequest,
+  type ServerlessInvokeResult,
+  type ServerlessRuntime,
+  type ServerlessRuntimeConfig,
+  type ServerlessSnapshot,
+} from "./serverlessRuntime.js";

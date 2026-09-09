@@ -25,7 +25,9 @@ phase_gate_cleared_by: "Bell Corporate Labs (DRI)"
 > (Bell Corporate Labs). Phase 3 scaffolding on `main` is authorised.
 >
 > **M3.1 status:** Managed Control Plane Alpha complete in-repo
-> (RFC-0014). Do not scaffold M3.2 until directed.
+> (RFC-0014).
+> **M3.2 status:** Serverless DAG Execution Beta complete in-repo
+> (RFC-0015). Do not scaffold M3.3 until directed.
 
 ---
 
@@ -112,6 +114,7 @@ Optional anonymized baseline model published by Smartware team.
 | Milestone | RFC | Status |
 |-----------|-----|--------|
 | M3.1 | `docs/rfcs/0014-managed-control-plane.md` | accepted |
+| M3.2 | `docs/rfcs/0015-serverless-dag-runtime.md` | accepted |
 
 ---
 

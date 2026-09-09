@@ -178,6 +178,21 @@ Phase 3 M3.1 library surface. Self-hostable control plane API; no phone-home; no
 
 ---
 
+## v3.2.0-m32 — Serverless DAG Execution Beta (2026-09-09)
+
+Phase 3 M3.2 library surface. Runtime abstraction with scale-to-zero; metering off by default.
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| RFC-0015 Serverless Runtime | Accepted | inprocess / container / wasm adapters |
+| Scale-to-zero | Alpha | idle TTL reclaim + explicit scaleToZero |
+| Cold-start budget | Alpha | Default 500ms; overruns counted locally |
+| Metering | Opt-in | `meteringEnabled` defaults false; local buffer only |
+| Real OCI/wasmtime | Stub | Adapter contract normative; engines deferred |
+| M3.3 Developer Portal | Blocked | Do not scaffold until directed |
+
+---
+
 ## Append Future Releases Below
 
 <!-- later Phase 3 entries append below this line -->

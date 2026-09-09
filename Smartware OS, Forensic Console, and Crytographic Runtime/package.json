@@ -1,9 +1,9 @@
 {
   "name": "@smartware/core",
-  "version": "3.1.0-m31",
+  "version": "3.2.0-m32",
   "private": true,
   "type": "module",
-  "description": "Smartware Phase 3 Control Plane Alpha (M3.1) + Phase 2 fabric + Phase 1 DAG",
+  "description": "Smartware Phase 3 (M3.1–M3.2) + Phase 2 fabric + Phase 1 DAG",
   "exports": {
     ".": "./src/index.ts"
   },
