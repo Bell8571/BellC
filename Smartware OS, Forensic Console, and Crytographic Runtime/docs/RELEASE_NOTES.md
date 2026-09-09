@@ -254,6 +254,21 @@ Phase 3 M3.6 library surface. Signed packages, partner onboarding, customer-mirr
 
 ---
 
+## v3.7.0-m37 — AI Scheduler + Billing Engine (2026-09-09)
+
+Phase 3 M3.7 library surface. Local AI placement training; billing metering off by default.
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| RFC-0020 AI + Billing | Accepted | Separate modules |
+| AI scheduler | Alpha | Local fleet samples only; preferAi iff beats round-robin |
+| Billing engine | Alpha | `meteringEnabled` defaults false |
+| Budget alerts | Alpha | Fail-closed when over limit (if metering on) |
+| Billing in execution path | Prohibited | No import into engine / AI scheduler |
+| M3.8 Cloud GA | Blocked | Do not scaffold until directed |
+
+---
+
 ## Append Future Releases Below
 
 <!-- later Phase 3 entries append below this line -->

@@ -56,13 +56,13 @@ Higher-numbered documents never override lower-numbered ones.
 
 | Item | Value |
 |------|-------|
-| Current version | v3.6.0-m36 alpha (M3.1–M3.6 present; Phase 2 → Phase 3 gate **cleared** 2026-09-09) |
-| Active phase | Phase 3 — Smartware Cloud (M3.6 complete; next M3.7 when directed) |
+| Current version | v3.7.0-m37 alpha (M3.1–M3.7 present; Phase 2 → Phase 3 gate **cleared** 2026-09-09) |
+| Active phase | Phase 3 — Smartware Cloud (M3.7 complete; next M3.8 when directed) |
 | Phase 1 window | Q4 2026 – Q2 2027 (**gate cleared** 2026-09-09 by DRI) |
 | Phase 2 window | Q3 2027 – Q2 2028 (**gate cleared** 2026-09-09 by DRI) |
 | Phase 3 window | Q3 2028 – Q4 2029 |
-| Next milestone | M3.7 — AI Scheduler + Billing Engine GA (do not scaffold until directed) |
-| Accepted RFCs | RFC-0001…0019 |
+| Next milestone | M3.8 — Smartware Cloud GA / phase gate review (do not clear OS gate until directed) |
+| Accepted RFCs | RFC-0001…0020 |
 | Phase gate authority | Human DRI sign-off required |
 | Amendment direction | Amendment A (ownerware) — tiebreaker only |
 | DRI | Bell Corporate Labs |

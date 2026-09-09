@@ -34,7 +34,9 @@ phase_gate_cleared_by: "Bell Corporate Labs (DRI)"
 > **M3.5 status:** Enterprise Security complete (RFC-0018). SOC 2 Type II
 > *prep controls* evidenced in-repo; certification remains auditor-owned.
 > **M3.6 status:** Marketplace Launch complete (RFC-0019).
-> Do not scaffold M3.7 until directed.
+> **M3.7 status:** AI Scheduler + Billing Engine complete (RFC-0020).
+> Billing metering defaults OFF; AI trains locally only.
+> Do not scaffold M3.8 until directed.
 
 ---
 
@@ -126,6 +128,7 @@ Optional anonymized baseline model published by Smartware team.
 | M3.4 | `docs/rfcs/0017-multi-region-fabric.md` | accepted |
 | M3.5 | `docs/rfcs/0018-enterprise-security.md` | accepted |
 | M3.6 | `docs/rfcs/0019-marketplace-registry.md` | accepted |
+| M3.7 | `docs/rfcs/0020-ai-scheduler-billing.md` | accepted |
 
 ---
 
@@ -135,7 +138,7 @@ Optional anonymized baseline model published by Smartware team.
 - Container/WASM runtime abstraction before M3.2
 - Global anycast network layer and latency SLA defined before M3.4 — **delivered in RFC-0017** (20ms overhead budget)
 - SOC 2 audit prep begins at M3.3 (6-month lead time) — **started 2026-09-09 with M3.3**
-- AI scheduler baseline model quality bar set before M3.7
+- AI scheduler baseline model quality bar set before M3.7 — **round-robin beat gate in RFC-0020**
 
 ---
 

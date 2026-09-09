@@ -256,3 +256,21 @@ export {
   type PublishInput,
   type RegistryMirror,
 } from "./marketplace.js";
+
+export {
+  createAiScheduler,
+  type AiPlacementScore,
+  type AiRecommendResult,
+  type AiScheduler,
+  type AiSchedulerConfig,
+  type FleetSample,
+} from "./aiScheduler.js";
+
+export {
+  createBillingEngine,
+  type BillingEngine,
+  type BillingEngineConfig,
+  type BillingResult,
+  type BudgetAlert,
+  type MeterEvent,
+} from "./billingEngine.js";
