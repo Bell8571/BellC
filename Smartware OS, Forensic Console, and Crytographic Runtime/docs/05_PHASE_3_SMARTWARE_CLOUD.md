@@ -6,13 +6,15 @@ version: "1.0.0"
 date: 2026-09-09
 phase: 3
 window: "Q3 2028 – Q4 2029"
-status: authorised
+status: ga-ready
 depends_on: "Phase 2 GA (M2.6)"
 owner: Cloud Platform Team
 authority: CORE-DIRECTIVE:AUTHORITY-0
 amendment_direction: Amendment A (ownerware — directional only)
 phase_gate_cleared_from_phase_2: "2026-09-09"
 phase_gate_cleared_by: "Bell Corporate Labs (DRI)"
+phase_3_implementation: "M3.1–M3.8 alpha complete 2026-09-09"
+phase_gate_to_os: "not cleared"
 ---
 
 # Phase 3 — Smartware Cloud
@@ -36,7 +38,9 @@ phase_gate_cleared_by: "Bell Corporate Labs (DRI)"
 > **M3.6 status:** Marketplace Launch complete (RFC-0019).
 > **M3.7 status:** AI Scheduler + Billing Engine complete (RFC-0020).
 > Billing metering defaults OFF; AI trains locally only.
-> Do not scaffold M3.8 until directed.
+> **M3.8 status:** Smartware Cloud GA *surface* complete (RFC-0021).
+> Phase 3 → Smartware OS gate is **not** cleared until human DRI sign-off
+> (and design-partner bar). Do not scaffold OS-layer code.
 
 ---
 
@@ -129,6 +133,7 @@ Optional anonymized baseline model published by Smartware team.
 | M3.5 | `docs/rfcs/0018-enterprise-security.md` | accepted |
 | M3.6 | `docs/rfcs/0019-marketplace-registry.md` | accepted |
 | M3.7 | `docs/rfcs/0020-ai-scheduler-billing.md` | accepted |
+| M3.8 | `docs/rfcs/0021-smartware-cloud-ga.md` | accepted |
 
 ---
 

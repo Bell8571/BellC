@@ -274,3 +274,11 @@ export {
   type BudgetAlert,
   type MeterEvent,
 } from "./billingEngine.js";
+
+export {
+  PHASE3_GA_VERSION,
+  runPhase3GaChecklist,
+  type Phase3Check,
+  type Phase3GaReport,
+  type Phase3MilestoneId,
+} from "./phase3Ga.js";
