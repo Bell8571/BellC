@@ -168,3 +168,21 @@ export {
   type SpanRecord,
   type SpanStatus,
 } from "./observability.js";
+
+export {
+  createControlPlane,
+  type ClusterRecord,
+  type ClusterStatus,
+  type ControlPlane,
+  type ControlPlaneConfig,
+  type ControlPlaneNode,
+  type ControlPlaneNodeRole,
+  type ControlPlaneNodeState,
+  type ControlPlaneResult,
+  type CreateClusterInput,
+  type RegisterNodeInput,
+  type ScaleIntent,
+  type ScalingPolicy,
+  type UpgradePlan,
+  type UpgradePlanStatus,
+} from "./controlPlane.js";

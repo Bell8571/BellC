@@ -1,9 +1,9 @@
 {
   "name": "@smartware/core",
-  "version": "2.6.0-phase2",
+  "version": "3.1.0-m31",
   "private": true,
   "type": "module",
-  "description": "Smartware Phase 2 Distributed Fabric alpha (M2.1–M2.6) + Phase 1 DAG runtime",
+  "description": "Smartware Phase 3 Control Plane Alpha (M3.1) + Phase 2 fabric + Phase 1 DAG",
   "exports": {
     ".": "./src/index.ts"
   },

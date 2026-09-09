@@ -163,6 +163,21 @@ Human DRI cleared the Phase 2 → Phase 3 gate in session ("clear phase 2"). Con
 
 ---
 
+## v3.1.0-m31 — Managed Control Plane Alpha (2026-09-09)
+
+Phase 3 M3.1 library surface. Self-hostable control plane API; no phone-home; no billing.
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| RFC-0014 Control Plane | Accepted | Cluster lifecycle, scaling, rolling upgrade |
+| createCluster / registerNode | Alpha | Fail-closed on maxNodes / decommissioned |
+| Scaling policy reconcile | Alpha | Emits add/remove intents only |
+| Rolling upgrade | Alpha | Workers first, control nodes last |
+| Cloud VM provisioning | Out of scope | M3.1 alpha is orchestration state only |
+| M3.2 Serverless | Blocked | Do not scaffold until directed |
+
+---
+
 ## Append Future Releases Below
 
 <!-- later Phase 3 entries append below this line -->

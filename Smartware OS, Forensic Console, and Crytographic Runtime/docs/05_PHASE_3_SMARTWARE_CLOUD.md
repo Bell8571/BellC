@@ -23,7 +23,9 @@ phase_gate_cleared_by: "Bell Corporate Labs (DRI)"
 >
 > **Phase gate:** Phase 2 → Phase 3 cleared 2026-09-09 by DRI
 > (Bell Corporate Labs). Phase 3 scaffolding on `main` is authorised.
-> No M3.x implementation has started until directed.
+>
+> **M3.1 status:** Managed Control Plane Alpha complete in-repo
+> (RFC-0014). Do not scaffold M3.2 until directed.
 
 ---
 
@@ -102,6 +104,14 @@ Optional anonymized baseline model published by Smartware team.
 | M3.6 | Marketplace Launch | Aug 2029 | Signed package registry, partner onboarding |
 | M3.7 | AI Scheduler + Billing Engine GA | Oct 2029 | Local-trained scheduler; metered billing |
 | M3.8 | Smartware Cloud GA | Dec 2029 | Phase gate review; Smartware OS green-light |
+
+---
+
+## Related RFCs
+
+| Milestone | RFC | Status |
+|-----------|-----|--------|
+| M3.1 | `docs/rfcs/0014-managed-control-plane.md` | accepted |
 
 ---
 
