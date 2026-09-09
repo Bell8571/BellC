@@ -1,0 +1,9 @@
+{
+  "id": "linear",
+  "version": "1.0.0",
+  "entrypoints": ["a"],
+  "nodes": {
+    "a": { "id": "a", "type": "task", "dependsOn": [], "config": {} },
+    "b": { "id": "b", "type": "task", "dependsOn": ["a"], "config": {} }
+  }
+}

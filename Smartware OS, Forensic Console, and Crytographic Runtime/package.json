@@ -1,0 +1,29 @@
+{
+  "name": "@smartware/core",
+  "version": "1.6.0-phase1",
+  "private": true,
+  "type": "module",
+  "description": "Smartware Phase 1 — DAG compiler, resolver, engine, visualizer, branching",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "smartware": "./src/cli.ts"
+  },
+  "scripts": {
+    "test": "node --import tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "compile-file": "node --import tsx src/cli.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "yaml": "^2.6.1"
+  }
+}
