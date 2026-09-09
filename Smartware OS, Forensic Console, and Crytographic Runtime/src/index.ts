@@ -123,3 +123,13 @@ export {
   type MessageBus,
   type PublishResult,
 } from "./messageBus.js";
+
+export {
+  createConsensusCluster,
+  type ConsensusCluster,
+  type ConsensusNode,
+  type KvResult,
+  type LogCommand,
+  type LogEntry,
+  type RaftRole,
+} from "./consensusStore.js";

@@ -120,6 +120,17 @@ Phase 1 → Phase 2 gate cleared by DRI. M2.1 alpha library.
 
 ---
 
+## v2.4.0-m24 — Distributed State Store Alpha (2026-09-09)
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| RFC-0011 Consensus KV | Accepted | Raft-inspired; invariants I1–I5 inline |
+| Leader election | Alpha | Majority quorum; single leader per term |
+| Replicated commit | Alpha | KV visible only after commit (I3) |
+| External etcd/Consul | Not used | In-cluster simulator only |
+
+---
+
 ## Append Future Releases Below
 
 <!-- later Phase 2 entries append below this line -->

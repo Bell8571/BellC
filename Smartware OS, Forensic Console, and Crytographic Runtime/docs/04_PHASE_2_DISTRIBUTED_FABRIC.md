@@ -100,6 +100,7 @@ export is an explicit opt-in with customer-configured endpoints.
 | M2.1 | `docs/rfcs/0008-cluster-topology-manager.md` | accepted |
 | M2.2 | `docs/rfcs/0009-distributed-dag-scheduler.md` | accepted |
 | M2.3 | `docs/rfcs/0010-smartware-message-bus.md` | accepted |
+| M2.4 | `docs/rfcs/0011-distributed-state-store.md` | accepted |
 
 ---
 
