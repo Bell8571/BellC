@@ -225,3 +225,20 @@ export {
   type RouteDecision,
   type RouteRequest,
 } from "./multiRegion.js";
+
+export {
+  SOC2_CONTROL_CATALOG,
+  buildSignedAssertion,
+  createEnterpriseSecurity,
+  withAuditExport,
+  type AuditEvent,
+  type AuditExportConfig,
+  type CustomerKeyRef,
+  type EnterpriseSecurity,
+  type EnterpriseSecurityConfig,
+  type IdpConfig,
+  type SamlAssertion,
+  type SecurityResult,
+  type Soc2Control,
+  type Soc2ControlStatus,
+} from "./enterpriseSecurity.js";

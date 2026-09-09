@@ -223,6 +223,22 @@ Phase 3 M3.4 library surface. Latency-aware routing; self-hostable endpoints; 20
 
 ---
 
+## v3.5.0-m35 — Enterprise Security + SOC 2 Prep (2026-09-09)
+
+Phase 3 M3.5 library surface. SSO/SAML, audit, CMEK, residency, SOC 2 control register.
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| RFC-0018 Enterprise Security | Accepted | Customer IdP + CMEK refs |
+| SAML acceptAssertion | Alpha | HMAC assertion; customer metadata |
+| Audit log | Alpha | Local default; export opt-in |
+| CMEK | Alpha | Opaque handles only — no private key storage |
+| Data residency | Alpha | Fail-closed allowlists |
+| SOC 2 Type II certified | False | Controls tracked; auditor sign-off required |
+| M3.6 Marketplace | Blocked | Do not scaffold until directed |
+
+---
+
 ## Append Future Releases Below
 
 <!-- later Phase 3 entries append below this line -->

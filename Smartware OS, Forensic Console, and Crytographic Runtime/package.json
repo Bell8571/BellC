@@ -1,9 +1,9 @@
 {
   "name": "@smartware/core",
-  "version": "3.4.0-m34",
+  "version": "3.5.0-m35",
   "private": true,
   "type": "module",
-  "description": "Smartware Phase 3 (M3.1–M3.4) + Phase 2 fabric + Phase 1 DAG",
+  "description": "Smartware Phase 3 (M3.1–M3.5) + Phase 2 fabric + Phase 1 DAG",
   "exports": {
     ".": "./src/index.ts"
   },

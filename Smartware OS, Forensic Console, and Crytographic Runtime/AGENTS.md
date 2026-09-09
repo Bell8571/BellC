@@ -56,13 +56,13 @@ Higher-numbered documents never override lower-numbered ones.
 
 | Item | Value |
 |------|-------|
-| Current version | v3.4.0-m34 alpha (M3.1–M3.4 present; Phase 2 → Phase 3 gate **cleared** 2026-09-09) |
-| Active phase | Phase 3 — Smartware Cloud (M3.4 complete; next M3.5 when directed) |
+| Current version | v3.5.0-m35 alpha (M3.1–M3.5 present; Phase 2 → Phase 3 gate **cleared** 2026-09-09) |
+| Active phase | Phase 3 — Smartware Cloud (M3.5 complete; next M3.6 when directed) |
 | Phase 1 window | Q4 2026 – Q2 2027 (**gate cleared** 2026-09-09 by DRI) |
 | Phase 2 window | Q3 2027 – Q2 2028 (**gate cleared** 2026-09-09 by DRI) |
 | Phase 3 window | Q3 2028 – Q4 2029 |
-| Next milestone | M3.5 — Enterprise Security + SOC 2 Type II (do not scaffold until directed) |
-| Accepted RFCs | RFC-0001…0017 |
+| Next milestone | M3.6 — Marketplace Launch (do not scaffold until directed) |
+| Accepted RFCs | RFC-0001…0018 |
 | Phase gate authority | Human DRI sign-off required |
 | Amendment direction | Amendment A (ownerware) — tiebreaker only |
 | DRI | Bell Corporate Labs |

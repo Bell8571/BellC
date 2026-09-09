@@ -31,7 +31,9 @@ phase_gate_cleared_by: "Bell Corporate Labs (DRI)"
 > **M3.3 status:** Developer Portal v1 complete in-repo (RFC-0016).
 > SOC 2 Type II audit prep clock started with M3.3.
 > **M3.4 status:** Multi-Region Fabric + Global Routing complete (RFC-0017).
-> Do not scaffold M3.5 until directed.
+> **M3.5 status:** Enterprise Security complete (RFC-0018). SOC 2 Type II
+> *prep controls* evidenced in-repo; certification remains auditor-owned.
+> Do not scaffold M3.6 until directed.
 
 ---
 
@@ -121,6 +123,7 @@ Optional anonymized baseline model published by Smartware team.
 | M3.2 | `docs/rfcs/0015-serverless-dag-runtime.md` | accepted |
 | M3.3 | `docs/rfcs/0016-developer-portal.md` | accepted |
 | M3.4 | `docs/rfcs/0017-multi-region-fabric.md` | accepted |
+| M3.5 | `docs/rfcs/0018-enterprise-security.md` | accepted |
 
 ---
 
