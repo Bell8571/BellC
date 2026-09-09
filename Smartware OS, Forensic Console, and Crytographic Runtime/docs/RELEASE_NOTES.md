@@ -208,6 +208,21 @@ Phase 3 M3.3 library surface. Local portal via `smartware portal start`. SOC 2 a
 
 ---
 
+## v3.4.0-m34 — Multi-Region Fabric + Global Routing (2026-09-09)
+
+Phase 3 M3.4 library surface. Latency-aware routing; self-hostable endpoints; 20ms overhead SLA.
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| RFC-0017 Multi-Region Fabric | Accepted | active-active / active-passive |
+| Latency-aware route() | Alpha | Lowest healthy candidate |
+| Overhead SLA | Alpha | Default budget 20ms; pins report withinSla |
+| Failover | Alpha | Standby used when active unhealthy (passive) |
+| Phone-home anycast SaaS | Prohibited | Customer endpoints only |
+| M3.5 Enterprise Security | Blocked | Do not scaffold until directed |
+
+---
+
 ## Append Future Releases Below
 
 <!-- later Phase 3 entries append below this line -->

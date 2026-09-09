@@ -22,6 +22,7 @@ Paths are from the repository root. Files marked *planned; not in repo* are rank
 | `docs/rfcs/0014-managed-control-plane.md` | RFC-0014 Managed Control Plane Alpha | M3.1 | accepted |
 | `docs/rfcs/0015-serverless-dag-runtime.md` | RFC-0015 Serverless DAG Runtime | M3.2 | accepted |
 | `docs/rfcs/0016-developer-portal.md` | RFC-0016 Developer Portal v1 | M3.3 | accepted |
+| `docs/rfcs/0017-multi-region-fabric.md` | RFC-0017 Multi-Region Fabric | M3.4 | accepted |
 
 ## Phase 2 RFCs
 
@@ -36,7 +37,7 @@ Paths are from the repository root. Files marked *planned; not in repo* are rank
 
 ## Phase 1 RFCs
 
-RFC-0001 through RFC-0007 are `accepted` (DRI: Bell Corporate Labs). Phase 1 → Phase 2 gate cleared 2026-09-09. Phase 2 RFCs RFC-0008…0013 are `accepted`. Phase 2 → Phase 3 gate cleared 2026-09-09. M3.1–M3.3 RFCs RFC-0014…0016 accepted 2026-09-09.
+RFC-0001 through RFC-0007 are `accepted` (DRI: Bell Corporate Labs). Phase 1 → Phase 2 gate cleared 2026-09-09. Phase 2 RFCs RFC-0008…0013 are `accepted`. Phase 2 → Phase 3 gate cleared 2026-09-09. M3.1–M3.4 RFCs RFC-0014…0017 accepted 2026-09-09.
 
 | File | RFC | Milestone | Status |
 | --- | --- | --- | --- |

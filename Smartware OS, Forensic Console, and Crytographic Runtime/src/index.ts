@@ -212,3 +212,16 @@ export {
   type PortalStartOptions,
   type PortalStartResult,
 } from "./portal.js";
+
+export {
+  createMultiRegionFabric,
+  type FabricMode,
+  type MultiRegionFabric,
+  type MultiRegionFabricConfig,
+  type MultiRegionResult,
+  type MultiRegionSnapshot,
+  type Region,
+  type RegionRole,
+  type RouteDecision,
+  type RouteRequest,
+} from "./multiRegion.js";
