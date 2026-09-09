@@ -295,3 +295,16 @@ export {
   type Substrate,
   type SubstrateKind,
 } from "./osExecutionPlane.js";
+
+export {
+  createOsBetaPlane,
+  type BetaSubstrate,
+  type BetaSubstrateKind,
+  type HealingMigration,
+  type KernelKind,
+  type KernelRegistration,
+  type KernelSelection,
+  type OsBetaPlane,
+  type OsBetaPlaneConfig,
+  type OsBetaResult,
+} from "./osBeta.js";

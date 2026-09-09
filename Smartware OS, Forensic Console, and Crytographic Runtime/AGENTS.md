@@ -56,14 +56,14 @@ Higher-numbered documents never override lower-numbered ones.
 
 | Item | Value |
 |------|-------|
-| Current version | v4.0.0-os-alpha (OS Alpha unified plane present; Phase 3 → OS gate **cleared** 2026-09-09) |
-| Active phase | Smartware OS — OS Alpha (unified cloud + on-prem plane); next OS Beta when directed |
+| Current version | v4.1.0-os-beta (OS Beta edge/kernels/healing present; Phase 3 → OS gate **cleared** 2026-09-09) |
+| Active phase | Smartware OS — OS Beta complete; next OS GA when directed |
 | Phase 1 window | Q4 2026 – Q2 2027 (**gate cleared** 2026-09-09 by DRI) |
 | Phase 2 window | Q3 2027 – Q2 2028 (**gate cleared** 2026-09-09 by DRI) |
 | Phase 3 window | Q3 2028 – Q4 2029 (**gate cleared** 2026-09-09 by DRI) |
 | OS window | 2030+ |
-| Next milestone | OS Beta — edge nodes, pluggable kernels, fault healing (do not scaffold until directed) |
-| Accepted RFCs | RFC-0001…0022 |
+| Next milestone | OS GA — marketplace-as-runtime-dependency / global DAG routing (do not scaffold until directed) |
+| Accepted RFCs | RFC-0001…0023 |
 | Phase gate authority | Human DRI sign-off required |
 | Amendment direction | Amendment A (ownerware) — tiebreaker only |
 | DRI | Bell Corporate Labs |
@@ -209,5 +209,8 @@ smartware-core/
         ├── 0010-smartware-message-bus.md
         ├── 0011-distributed-state-store.md
         ├── 0012-fault-tolerance-multi-tenancy.md
-        └── 0013-observability-layer.md
+        ├── 0013-observability-layer.md
+        ├── … (0014–0021 Phase 3)
+        ├── 0022-os-alpha-unified-plane.md
+        └── 0023-os-beta-edge-kernels-healing.md
 ```

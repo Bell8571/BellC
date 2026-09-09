@@ -299,10 +299,25 @@ Unified execution plane (cloud + on-prem) with local self-optimizing scheduler v
 | Edge substrates | Denied | OS Beta |
 | Self-optimizing place() | Alpha | Uses local AI scheduler; beats round-robin gate |
 | Research tracks | Blocked | Separate RFCs required |
-| OS Beta | Blocked | Do not scaffold until directed |
+| OS Beta | Directed | See v4.1.0-os-beta |
+
+---
+
+## v4.1.0-os-beta — Smartware OS Beta (2026-09-09)
+
+Edge substrates, pluggable runtime kernels, autonomous fault healing (local health signals only).
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| RFC-0023 OS Beta | Accepted | Edge + kernels + healing |
+| Edge substrates | Beta | Allowed on `OsBetaPlane` (Alpha still denies) |
+| Kernels | Beta | `wasm` \| `jvm` \| `native` \| `gpu` |
+| Autonomous healing | Beta | Migrate when healthScore < threshold |
+| OS GA | Blocked | Marketplace-as-runtime-dependency — do not scaffold until directed |
+| Research tracks | Blocked | Separate RFCs required |
 
 ---
 
 ## Append Future Releases Below
 
-<!-- later OS Beta / GA entries append below this line -->
+<!-- later OS GA / research-track entries append below this line -->
