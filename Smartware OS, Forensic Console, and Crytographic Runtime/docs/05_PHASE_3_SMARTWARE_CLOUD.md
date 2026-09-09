@@ -33,7 +33,8 @@ phase_gate_cleared_by: "Bell Corporate Labs (DRI)"
 > **M3.4 status:** Multi-Region Fabric + Global Routing complete (RFC-0017).
 > **M3.5 status:** Enterprise Security complete (RFC-0018). SOC 2 Type II
 > *prep controls* evidenced in-repo; certification remains auditor-owned.
-> Do not scaffold M3.6 until directed.
+> **M3.6 status:** Marketplace Launch complete (RFC-0019).
+> Do not scaffold M3.7 until directed.
 
 ---
 
@@ -124,6 +125,7 @@ Optional anonymized baseline model published by Smartware team.
 | M3.3 | `docs/rfcs/0016-developer-portal.md` | accepted |
 | M3.4 | `docs/rfcs/0017-multi-region-fabric.md` | accepted |
 | M3.5 | `docs/rfcs/0018-enterprise-security.md` | accepted |
+| M3.6 | `docs/rfcs/0019-marketplace-registry.md` | accepted |
 
 ---
 

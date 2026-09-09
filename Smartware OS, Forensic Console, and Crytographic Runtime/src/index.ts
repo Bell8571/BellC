@@ -242,3 +242,17 @@ export {
   type Soc2Control,
   type Soc2ControlStatus,
 } from "./enterpriseSecurity.js";
+
+export {
+  createMarketplaceRegistry,
+  signPackageManifest,
+  type MarketplacePackage,
+  type MarketplaceRegistry,
+  type MarketplaceRegistryConfig,
+  type MarketplaceResult,
+  type PackageKind,
+  type Partner,
+  type PartnerStatus,
+  type PublishInput,
+  type RegistryMirror,
+} from "./marketplace.js";

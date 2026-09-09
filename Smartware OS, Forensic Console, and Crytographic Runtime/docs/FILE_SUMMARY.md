@@ -24,6 +24,7 @@ Paths are from the repository root. Files marked *planned; not in repo* are rank
 | `docs/rfcs/0016-developer-portal.md` | RFC-0016 Developer Portal v1 | M3.3 | accepted |
 | `docs/rfcs/0017-multi-region-fabric.md` | RFC-0017 Multi-Region Fabric | M3.4 | accepted |
 | `docs/rfcs/0018-enterprise-security.md` | RFC-0018 Enterprise Security | M3.5 | accepted |
+| `docs/rfcs/0019-marketplace-registry.md` | RFC-0019 Marketplace Registry | M3.6 | accepted |
 
 ## Phase 2 RFCs
 
@@ -38,7 +39,7 @@ Paths are from the repository root. Files marked *planned; not in repo* are rank
 
 ## Phase 1 RFCs
 
-RFC-0001 through RFC-0007 are `accepted` (DRI: Bell Corporate Labs). Phase 1 → Phase 2 gate cleared 2026-09-09. Phase 2 RFCs RFC-0008…0013 are `accepted`. Phase 2 → Phase 3 gate cleared 2026-09-09. M3.1–M3.5 RFCs RFC-0014…0018 accepted 2026-09-09.
+RFC-0001 through RFC-0007 are `accepted` (DRI: Bell Corporate Labs). Phase 1 → Phase 2 gate cleared 2026-09-09. Phase 2 RFCs RFC-0008…0013 are `accepted`. Phase 2 → Phase 3 gate cleared 2026-09-09. M3.1–M3.6 RFCs RFC-0014…0019 accepted 2026-09-09.
 
 | File | RFC | Milestone | Status |
 | --- | --- | --- | --- |

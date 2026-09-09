@@ -239,6 +239,21 @@ Phase 3 M3.5 library surface. SSO/SAML, audit, CMEK, residency, SOC 2 control re
 
 ---
 
+## v3.6.0-m36 — Marketplace Launch (2026-09-09)
+
+Phase 3 M3.6 library surface. Signed packages, partner onboarding, customer-mirrorable registry.
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| RFC-0019 Marketplace Registry | Accepted | node-type / connector / template |
+| Partner onboarding | Alpha | pending → approved → publish |
+| Package signing | Alpha | HMAC over manifest; verify required |
+| Registry mirror | Alpha | exportMirror / importMirror for air-gap |
+| Phone-home SaaS registry | Prohibited | Local/customer-operated default |
+| M3.7 AI Scheduler + Billing | Blocked | Do not scaffold until directed |
+
+---
+
 ## Append Future Releases Below
 
 <!-- later Phase 3 entries append below this line -->
