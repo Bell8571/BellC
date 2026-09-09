@@ -354,3 +354,16 @@ export {
   type DecentralResult,
   type OrgRegistration,
 } from "./decentralizedConsensus.js";
+
+export {
+  createAiCopilot,
+  type AiCopilot,
+  type AiCopilotConfig,
+  type AuthoringSuggestion,
+  type CopilotProviderConfig,
+  type CopilotProviderKind,
+  type CopilotResult,
+  type OptimisationHint,
+  type OptimisationSuggestion,
+  type WorkflowNodeSketch,
+} from "./aiCopilot.js";

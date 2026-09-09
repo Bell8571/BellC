@@ -1,9 +1,9 @@
 {
   "name": "@smartware/core",
-  "version": "5.1.0-research",
+  "version": "5.2.0-copilot",
   "private": true,
   "type": "module",
-  "description": "Smartware OS GA + research scaffolds (formal verification, neuromorphic, decentralized consensus)",
+  "description": "Smartware OS GA + research (formal, neuromorphic, decentralized, AI Co-Pilot with Grok/Gemini/local)",
   "exports": {
     ".": "./src/index.ts"
   },

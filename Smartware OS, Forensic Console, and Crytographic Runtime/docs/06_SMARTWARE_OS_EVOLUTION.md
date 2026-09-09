@@ -112,7 +112,7 @@ verified at the runtime layer.
 | Formal Verification | Mechanised proofs of DAG execution semantics and consensus invariants | Yes | RFC-0025 accepted; scaffold shipped |
 | Neuromorphic Edge Scheduling | Low-power scheduling primitives for edge nodes using neuromorphic compute | Yes | RFC-0026 accepted; scaffold shipped |
 | Decentralized Consensus | Trustless multi-organisation DAG execution without a central coordinator | Yes | RFC-0027 accepted; scaffold shipped |
-| AI Co-Pilot | Workflow authoring assistant and optimisation suggestion engine | Yes | Not started — needs RFC |
+| AI Co-Pilot | Workflow authoring assistant and optimisation suggestion engine (Grok + Gemini + local) | Yes | RFC-0028 accepted; scaffold shipped |
 
 Each track requires a standalone RFC in `docs/rfcs/` before
 any implementation work begins.
@@ -138,3 +138,4 @@ Smartware OS work is gated on **all** of the following:
 | Research — Formal Verification | `docs/rfcs/0025-research-formal-verification.md` | accepted |
 | Research — Neuromorphic Edge | `docs/rfcs/0026-research-neuromorphic-edge.md` | accepted |
 | Research — Decentralized Consensus | `docs/rfcs/0027-research-decentralized-consensus.md` | accepted |
+| Research — AI Co-Pilot | `docs/rfcs/0028-research-ai-copilot.md` | accepted |

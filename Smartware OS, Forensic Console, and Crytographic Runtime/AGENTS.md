@@ -56,14 +56,14 @@ Higher-numbered documents never override lower-numbered ones.
 
 | Item | Value |
 |------|-------|
-| Current version | v5.1.0-research (OS GA + formal/neuromorphic/decentralized research scaffolds; AI co-pilot still RFC-gated) |
-| Active phase | Smartware OS — research tracks (3 of 4 directed); AI co-pilot not started |
+| Current version | v5.2.0-copilot (OS GA + all four research tracks; Co-Pilot: grok/gemini/local, default off) |
+| Active phase | Smartware OS — planned roadmap + research tracks complete |
 | Phase 1 window | Q4 2026 – Q2 2027 (**gate cleared** 2026-09-09 by DRI) |
 | Phase 2 window | Q3 2027 – Q2 2028 (**gate cleared** 2026-09-09 by DRI) |
 | Phase 3 window | Q3 2028 – Q4 2029 (**gate cleared** 2026-09-09 by DRI) |
 | OS window | 2030+ |
-| Next milestone | AI Co-Pilot research track — needs RFC-0028 before scaffold; do not invent |
-| Accepted RFCs | RFC-0001…0027 |
+| Next milestone | No further roadmap milestones; new work needs a human-authored RFC |
+| Accepted RFCs | RFC-0001…0028 |
 | Phase gate authority | Human DRI sign-off required |
 | Amendment direction | Amendment A (ownerware) — tiebreaker only |
 | DRI | Bell Corporate Labs |
@@ -216,5 +216,6 @@ smartware-core/
         ├── 0024-os-ga-ecosystem-global-routing.md
         ├── 0025-research-formal-verification.md
         ├── 0026-research-neuromorphic-edge.md
-        └── 0027-research-decentralized-consensus.md
+        ├── 0027-research-decentralized-consensus.md
+        └── 0028-research-ai-copilot.md
 ```

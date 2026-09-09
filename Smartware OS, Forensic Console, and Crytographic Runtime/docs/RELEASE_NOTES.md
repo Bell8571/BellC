@@ -341,10 +341,25 @@ Three research scaffolds directed by DRI (formal verification, neuromorphic edge
 | RFC-0025 Formal Verification | Accepted | Local invariant checkers for DAG + consensus traces |
 | RFC-0026 Neuromorphic Edge | Accepted | Spike/energy budget edge placement |
 | RFC-0027 Decentralized Consensus | Accepted | Multi-org quorum attestation; no coordinator org |
-| AI Co-Pilot | Blocked | Needs dedicated RFC before scaffold |
+| AI Co-Pilot | Directed | See v5.2.0-copilot |
+
+---
+
+## v5.2.0-copilot — AI Co-Pilot research (2026-09-09)
+
+Workflow authoring + optimisation assistant. Providers: **Grok**, **Gemini**, **local**. Default disabled; customer-held keys only.
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| RFC-0028 AI Co-Pilot | Accepted | Authoring + optimisation |
+| Provider `local` | Research | Offline rule-based; no network |
+| Provider `grok` | Research | xAI chat completions; customer apiKey |
+| Provider `gemini` | Research | Google generateContent; customer apiKey |
+| Default enabled | Denied | Fail-closed until `enabled: true` |
+| Smartware-hosted keys | Denied | Ownerware — customer holds keys |
 
 ---
 
 ## Append Future Releases Below
 
-<!-- later AI co-pilot / research entries append below this line -->
+<!-- later entries append below this line -->
