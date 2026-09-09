@@ -56,12 +56,13 @@ Higher-numbered documents never override lower-numbered ones.
 
 | Item | Value |
 |------|-------|
-| Current version | v3.8.0-phase3 alpha (M3.1–M3.8 present; Phase 3 → OS gate **not** cleared) |
-| Active phase | Phase 3 — Smartware Cloud (GA surface complete; awaiting DRI OS gate review) |
+| Current version | v3.8.0-phase3 alpha (M3.1–M3.8 present; Phase 3 → OS gate **cleared** 2026-09-09) |
+| Active phase | Smartware OS — evolution tracks (gate cleared; scaffolding authorised; no OS Alpha started yet) |
 | Phase 1 window | Q4 2026 – Q2 2027 (**gate cleared** 2026-09-09 by DRI) |
 | Phase 2 window | Q3 2027 – Q2 2028 (**gate cleared** 2026-09-09 by DRI) |
-| Phase 3 window | Q3 2028 – Q4 2029 (implementation complete; OS gate open) |
-| Next milestone | Phase 3 → Smartware OS gate review (human DRI). Do **not** scaffold OS until cleared. |
+| Phase 3 window | Q3 2028 – Q4 2029 (**gate cleared** 2026-09-09 by DRI) |
+| OS window | 2030+ |
+| Next milestone | OS Alpha RFC / first OS track (follow `docs/06_SMARTWARE_OS_EVOLUTION.md`; do not invent tracks) |
 | Accepted RFCs | RFC-0001…0021 |
 | Phase gate authority | Human DRI sign-off required |
 | Amendment direction | Amendment A (ownerware) — tiebreaker only |

@@ -61,8 +61,9 @@ When silent, default to fail-closed.
 - Developer portal must be runnable locally with `smartware portal start`
 
 ### Smartware OS (2030+)
-- No OS-layer work may begin until Phase 3 GA milestone (M3.8) is verified
+- OS-layer scaffolding is authorised only after Phase 3 → OS gate clearance (recorded 2026-09-09)
 - Self-optimizing scheduler must train on local fleet data only by default
+- OS Alpha implementation still requires a dedicated OS Alpha RFC before code lands
 
 ---
 

@@ -271,14 +271,20 @@ Phase 3 M3.7 library surface. Local AI placement training; billing metering off 
 
 ## v3.8.0-phase3 — Smartware Cloud GA Surface (2026-09-09)
 
-Phase 3 milestones M3.1–M3.8 are present as an alpha library. **Not** a verified production GA ship. Phase 3 → Smartware OS gate still requires human DRI review (+ design partner bar).
+Phase 3 milestones M3.1–M3.8 are present as an alpha library. **Not** a verified production GA ship.
 
 | Feature | Status | Notes |
 |---------|--------|-------|
 | RFC-0021 Cloud GA | Accepted | `runPhase3GaChecklist()` |
 | M3.1–M3.7 surface checks | Alpha | Construct + ownerware defaults |
-| OS gate | Open | `osGateCleared: false` always from checklist |
-| OS scaffolding | Blocked | Do not start until DRI clears gate |
+| Phase 3 → OS gate | Cleared | 2026-09-09 by DRI (Bell Corporate Labs) |
+| OS scaffolding | Authorised | No OS Alpha code until directed + OS Alpha RFC |
+
+---
+
+## Phase gate — Phase 3 → Smartware OS (2026-09-09)
+
+Human DRI cleared the Phase 3 → Smartware OS gate in session ("clear phase 3"). Design-partner production bar accepted under that clearance. OS Alpha still requires a dedicated RFC before implementation.
 
 ---
 

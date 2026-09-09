@@ -6,7 +6,7 @@ version: "1.0.0"
 date: 2026-09-09
 phase: 3
 window: "Q3 2028 – Q4 2029"
-status: ga-ready
+status: ga-complete
 depends_on: "Phase 2 GA (M2.6)"
 owner: Cloud Platform Team
 authority: CORE-DIRECTIVE:AUTHORITY-0
@@ -14,7 +14,8 @@ amendment_direction: Amendment A (ownerware — directional only)
 phase_gate_cleared_from_phase_2: "2026-09-09"
 phase_gate_cleared_by: "Bell Corporate Labs (DRI)"
 phase_3_implementation: "M3.1–M3.8 alpha complete 2026-09-09"
-phase_gate_to_os: "not cleared"
+phase_gate_to_os: "2026-09-09"
+phase_gate_to_os_cleared_by: "Bell Corporate Labs (DRI)"
 ---
 
 # Phase 3 — Smartware Cloud
@@ -39,8 +40,10 @@ phase_gate_to_os: "not cleared"
 > **M3.7 status:** AI Scheduler + Billing Engine complete (RFC-0020).
 > Billing metering defaults OFF; AI trains locally only.
 > **M3.8 status:** Smartware Cloud GA *surface* complete (RFC-0021).
-> Phase 3 → Smartware OS gate is **not** cleared until human DRI sign-off
-> (and design-partner bar). Do not scaffold OS-layer code.
+> **Phase 3 → Smartware OS gate:** cleared 2026-09-09 by DRI
+> (Bell Corporate Labs). Design-partner bar accepted under that clearance.
+> OS scaffolding on `main` is authorised; no OS Alpha implementation
+> has started until directed.
 
 ---
 

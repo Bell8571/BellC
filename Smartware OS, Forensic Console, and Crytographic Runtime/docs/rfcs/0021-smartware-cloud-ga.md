@@ -32,9 +32,9 @@ blocked_by: ~
 
 ```
 1. ACCEPTED. Ship Phase 3 GA *surface* checklist covering M3.1–M3.7.
-2. Completing M3.8 does NOT clear Phase 3 → Smartware OS gate;
-   human DRI must clear that separately (and design-partner bar).
-3. Do NOT scaffold docs/06 OS-layer code in this milestone.
+2. M3.8 acceptance alone did not clear Phase 3 → OS;
+   that gate was cleared separately by DRI on 2026-09-09.
+3. OS Alpha still requires a dedicated OS Alpha RFC before implementation.
 4. Billing remains default-off; observability export default-off;
    ownerware invariants remain fail-closed.
 5. Package version 3.8.0-phase3 marks GA library surface only —
@@ -45,7 +45,7 @@ blocked_by: ~
 
 ## § 1 — Summary
 
-Mark Phase 3 implementation complete with a machine-checkable **Phase3GaChecklist** that constructs each M3.x facade and asserts Authority-0 defaults (no phone-home, metering off, local portal bind, SOC2 not auto-certified). OS Alpha stays blocked until DRI gate clear.
+Mark Phase 3 implementation complete with a machine-checkable **Phase3GaChecklist** that constructs each M3.x facade and asserts Authority-0 defaults (no phone-home, metering off, local portal bind, SOC2 not auto-certified). Phase 3 → OS gate cleared separately by DRI; OS Alpha still needs its own RFC.
 
 ---
 
@@ -55,7 +55,9 @@ Mark Phase 3 implementation complete with a machine-checkable **Phase3GaChecklis
 2026-09-09 | Bell Corporate Labs | Status: draft → accepted
   Directed in session ("Next"). Linked to M3.8.
   Sign-off directed by the DRI; agent recorded the entry.
-  Phase 3 → OS gate remains uncleared.
+2026-09-09 | Bell Corporate Labs | Phase 3 → Smartware OS gate cleared
+  Directed in session ("clear phase 3"). Design-partner bar accepted
+  under gate clearance. OS scaffolding authorised; OS Alpha RFC still required.
 ```
 
 ---

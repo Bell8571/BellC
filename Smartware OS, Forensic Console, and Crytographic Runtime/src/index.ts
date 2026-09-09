@@ -277,6 +277,7 @@ export {
 
 export {
   PHASE3_GA_VERSION,
+  PHASE3_TO_OS_GATE,
   runPhase3GaChecklist,
   type Phase3Check,
   type Phase3GaReport,

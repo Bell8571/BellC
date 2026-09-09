@@ -6,17 +6,22 @@ version: "1.0.0"
 date: 2026-09-09
 phase: OS
 window: "2030 and beyond"
-status: research
+status: authorised
 depends_on: "Phase 3 GA (M3.8)"
 owner: Research & OS Team
 authority: CORE-DIRECTIVE:AUTHORITY-0
+phase_gate_cleared_from_phase_3: "2026-09-09"
+phase_gate_cleared_by: "Bell Corporate Labs (DRI)"
 ---
 
 # Smartware OS — Long-Term Evolution
 
 > The convergence of the Runtime DAG engine, Distributed Fabric,
 > and Cloud Platform into a unified, composable operating substrate.
-> No OS-layer work begins until M3.8 is verified.
+>
+> **Phase gate:** Phase 3 → Smartware OS cleared 2026-09-09 by DRI
+> (Bell Corporate Labs). OS scaffolding on `main` is authorised.
+> No OS Alpha implementation has started until directed.
 
 ---
 
@@ -24,8 +29,8 @@ authority: CORE-DIRECTIVE:AUTHORITY-0
 
 TASK: Smartware OS research and early scaffolding.
 READ: docs/AI_INSTRUCTIONS.md before writing any code.
-GATE: This file is PLANNING only until M3.8 is verified.
-Do not scaffold OS-layer code before that gate clears.
+GATE: Phase 3 → OS cleared 2026-09-09 — scaffolding authorised.
+Do not invent OS tracks; follow this file and linked RFCs.
 SCHEDULER: Self-optimizing scheduler trains on local fleet
 data only. No central reinforcement-learning oracle.
 SCOPE: Cloud + on-prem unified plane in OS Alpha.
@@ -109,6 +114,6 @@ any implementation work begins.
 ## Phase Gate from Phase 3
 
 Smartware OS work is gated on **all** of the following:
-- M3.8 (Smartware Cloud GA) verified and signed off by DRI
-- At least one design partner running Phase 3 in production
-- OS Alpha RFC approved covering unified execution plane scope
+- M3.8 (Smartware Cloud GA) verified and signed off by DRI — **cleared 2026-09-09**
+- At least one design partner running Phase 3 in production — **accepted under DRI gate clearance 2026-09-09**
+- OS Alpha RFC approved covering unified execution plane scope — **required before OS Alpha implementation**

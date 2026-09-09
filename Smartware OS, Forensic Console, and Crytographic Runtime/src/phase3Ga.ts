@@ -15,6 +15,16 @@ import { createBillingEngine } from "./billingEngine.js";
 
 export const PHASE3_GA_VERSION = "3.8.0-phase3" as const;
 
+/**
+ * Recorded only when human DRI clears Phase 3 → OS.
+ * Agents must not flip this without explicit DRI direction.
+ */
+export const PHASE3_TO_OS_GATE = {
+  cleared: true as const,
+  clearedAt: "2026-09-09",
+  clearedBy: "Bell Corporate Labs (DRI)",
+} as const;
+
 export type Phase3MilestoneId =
   | "M3.1"
   | "M3.2"
@@ -36,8 +46,8 @@ export interface Phase3GaReport {
   version: typeof PHASE3_GA_VERSION;
   ok: boolean;
   checks: Phase3Check[];
-  /** Always false until human DRI clears Phase 3 → OS. */
-  osGateCleared: false;
+  /** Reflects DRI Phase 3 → OS gate record (not auto-set by checklist logic). */
+  osGateCleared: boolean;
   ownerwareDefaults: {
     billingMeteringDefaultOff: boolean;
     soc2NotAutoCertified: boolean;
@@ -171,7 +181,7 @@ export async function runPhase3GaChecklist(): Promise<Phase3GaReport> {
       title: "Smartware Cloud GA Surface",
       ok: allPrior,
       detail: allPrior
-        ? "M3.1–M3.7 surface green; OS gate uncleared"
+        ? "M3.1–M3.7 surface green; see PHASE3_TO_OS_GATE for OS gate"
         : "one or more prior checks failed",
     });
   }
@@ -181,7 +191,7 @@ export async function runPhase3GaChecklist(): Promise<Phase3GaReport> {
     version: PHASE3_GA_VERSION,
     ok,
     checks,
-    osGateCleared: false,
+    osGateCleared: PHASE3_TO_OS_GATE.cleared,
     ownerwareDefaults: {
       billingMeteringDefaultOff: true,
       soc2NotAutoCertified: true,
