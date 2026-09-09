@@ -21,7 +21,10 @@ phase_gate_cleared_by: "Bell Corporate Labs (DRI)"
 >
 > **Phase gate:** Phase 3 → Smartware OS cleared 2026-09-09 by DRI
 > (Bell Corporate Labs). OS scaffolding on `main` is authorised.
-> No OS Alpha implementation has started until directed.
+>
+> **OS Alpha status:** Unified execution plane (cloud + on-prem) +
+> self-optimizing scheduler v1 complete (RFC-0022). Edge / kernels /
+> fault healing are OS Beta — do not scaffold until directed.
 
 ---
 
@@ -116,4 +119,12 @@ any implementation work begins.
 Smartware OS work is gated on **all** of the following:
 - M3.8 (Smartware Cloud GA) verified and signed off by DRI — **cleared 2026-09-09**
 - At least one design partner running Phase 3 in production — **accepted under DRI gate clearance 2026-09-09**
-- OS Alpha RFC approved covering unified execution plane scope — **required before OS Alpha implementation**
+- OS Alpha RFC approved covering unified execution plane scope — **RFC-0022 accepted 2026-09-09**
+
+---
+
+## Related RFCs
+
+| Milestone | RFC | Status |
+|-----------|-----|--------|
+| OS Alpha | `docs/rfcs/0022-os-alpha-unified-plane.md` | accepted |

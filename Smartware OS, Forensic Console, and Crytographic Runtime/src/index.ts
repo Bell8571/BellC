@@ -283,3 +283,15 @@ export {
   type Phase3GaReport,
   type Phase3MilestoneId,
 } from "./phase3Ga.js";
+
+export {
+  createOsExecutionPlane,
+  type OsExecutionPlane,
+  type OsExecutionPlaneConfig,
+  type OsPlaneResult,
+  type PlaceWorkflowDecision,
+  type PlaceWorkflowRequest,
+  type SelfOptimizingScheduler,
+  type Substrate,
+  type SubstrateKind,
+} from "./osExecutionPlane.js";

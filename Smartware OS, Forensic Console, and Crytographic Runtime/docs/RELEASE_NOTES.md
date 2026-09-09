@@ -288,6 +288,21 @@ Human DRI cleared the Phase 3 → Smartware OS gate in session ("clear phase 3")
 
 ---
 
+## v4.0.0-os-alpha — Smartware OS Alpha (2026-09-09)
+
+Unified execution plane (cloud + on-prem) with local self-optimizing scheduler v1.
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| RFC-0022 OS Alpha | Accepted | Unified plane + local optimizer |
+| Substrates | Alpha | `cloud` \| `on-prem` only |
+| Edge substrates | Denied | OS Beta |
+| Self-optimizing place() | Alpha | Uses local AI scheduler; beats round-robin gate |
+| Research tracks | Blocked | Separate RFCs required |
+| OS Beta | Blocked | Do not scaffold until directed |
+
+---
+
 ## Append Future Releases Below
 
-<!-- later OS / post-GA entries append below this line -->
+<!-- later OS Beta / GA entries append below this line -->

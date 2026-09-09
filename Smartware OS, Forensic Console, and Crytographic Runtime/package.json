@@ -1,9 +1,9 @@
 {
   "name": "@smartware/core",
-  "version": "3.8.0-phase3",
+  "version": "4.0.0-os-alpha",
   "private": true,
   "type": "module",
-  "description": "Smartware Phase 3 Cloud GA surface (M3.1–M3.8) + Phase 2 fabric + Phase 1 DAG",
+  "description": "Smartware OS Alpha (unified plane) + Phase 3 Cloud + Phase 2 fabric + Phase 1 DAG",
   "exports": {
     ".": "./src/index.ts"
   },

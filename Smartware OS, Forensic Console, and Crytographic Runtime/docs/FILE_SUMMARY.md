@@ -28,6 +28,12 @@ Paths are from the repository root. Files marked *planned; not in repo* are rank
 | `docs/rfcs/0020-ai-scheduler-billing.md` | RFC-0020 AI Scheduler + Billing | M3.7 | accepted |
 | `docs/rfcs/0021-smartware-cloud-ga.md` | RFC-0021 Smartware Cloud GA | M3.8 | accepted |
 
+## Smartware OS RFCs
+
+| File | RFC | Milestone | Status |
+| --- | --- | --- | --- |
+| `docs/rfcs/0022-os-alpha-unified-plane.md` | RFC-0022 OS Alpha Unified Plane | OS Alpha | accepted |
+
 ## Phase 2 RFCs
 
 | File | RFC | Milestone | Status |
@@ -41,7 +47,7 @@ Paths are from the repository root. Files marked *planned; not in repo* are rank
 
 ## Phase 1 RFCs
 
-RFC-0001 through RFC-0007 are `accepted` (DRI: Bell Corporate Labs). Phase 1 → Phase 2 gate cleared 2026-09-09. Phase 2 RFCs RFC-0008…0013 are `accepted`. Phase 2 → Phase 3 gate cleared 2026-09-09. M3.1–M3.8 RFCs RFC-0014…0021 accepted 2026-09-09. Phase 3 → OS gate cleared 2026-09-09.
+RFC-0001 through RFC-0007 are `accepted` (DRI: Bell Corporate Labs). Phase 1 → Phase 2 gate cleared 2026-09-09. Phase 2 RFCs RFC-0008…0013 are `accepted`. Phase 2 → Phase 3 gate cleared 2026-09-09. M3.1–M3.8 RFCs RFC-0014…0021 accepted 2026-09-09. Phase 3 → OS gate cleared 2026-09-09. OS Alpha RFC-0022 accepted 2026-09-09.
 
 | File | RFC | Milestone | Status |
 | --- | --- | --- | --- |

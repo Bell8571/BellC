@@ -56,14 +56,14 @@ Higher-numbered documents never override lower-numbered ones.
 
 | Item | Value |
 |------|-------|
-| Current version | v3.8.0-phase3 alpha (M3.1–M3.8 present; Phase 3 → OS gate **cleared** 2026-09-09) |
-| Active phase | Smartware OS — evolution tracks (gate cleared; scaffolding authorised; no OS Alpha started yet) |
+| Current version | v4.0.0-os-alpha (OS Alpha unified plane present; Phase 3 → OS gate **cleared** 2026-09-09) |
+| Active phase | Smartware OS — OS Alpha (unified cloud + on-prem plane); next OS Beta when directed |
 | Phase 1 window | Q4 2026 – Q2 2027 (**gate cleared** 2026-09-09 by DRI) |
 | Phase 2 window | Q3 2027 – Q2 2028 (**gate cleared** 2026-09-09 by DRI) |
 | Phase 3 window | Q3 2028 – Q4 2029 (**gate cleared** 2026-09-09 by DRI) |
 | OS window | 2030+ |
-| Next milestone | OS Alpha RFC / first OS track (follow `docs/06_SMARTWARE_OS_EVOLUTION.md`; do not invent tracks) |
-| Accepted RFCs | RFC-0001…0021 |
+| Next milestone | OS Beta — edge nodes, pluggable kernels, fault healing (do not scaffold until directed) |
+| Accepted RFCs | RFC-0001…0022 |
 | Phase gate authority | Human DRI sign-off required |
 | Amendment direction | Amendment A (ownerware) — tiebreaker only |
 | DRI | Bell Corporate Labs |
