@@ -107,12 +107,12 @@ verified at the runtime layer.
 
 ## Research & Innovation Tracks
 
-| Track | Description | RFC Required |
-|-------|-------------|-------------|
-| Formal Verification | Mechanised proofs of DAG execution semantics and consensus invariants | Yes |
-| Neuromorphic Edge Scheduling | Low-power scheduling primitives for edge nodes using neuromorphic compute | Yes |
-| Decentralized Consensus | Trustless multi-organisation DAG execution without a central coordinator | Yes |
-| AI Co-Pilot | Workflow authoring assistant and optimisation suggestion engine | Yes |
+| Track | Description | RFC Required | Status |
+|-------|-------------|-------------|--------|
+| Formal Verification | Mechanised proofs of DAG execution semantics and consensus invariants | Yes | RFC-0025 accepted; scaffold shipped |
+| Neuromorphic Edge Scheduling | Low-power scheduling primitives for edge nodes using neuromorphic compute | Yes | RFC-0026 accepted; scaffold shipped |
+| Decentralized Consensus | Trustless multi-organisation DAG execution without a central coordinator | Yes | RFC-0027 accepted; scaffold shipped |
+| AI Co-Pilot | Workflow authoring assistant and optimisation suggestion engine | Yes | Not started — needs RFC |
 
 Each track requires a standalone RFC in `docs/rfcs/` before
 any implementation work begins.
@@ -135,3 +135,6 @@ Smartware OS work is gated on **all** of the following:
 | OS Alpha | `docs/rfcs/0022-os-alpha-unified-plane.md` | accepted |
 | OS Beta | `docs/rfcs/0023-os-beta-edge-kernels-healing.md` | accepted |
 | OS GA | `docs/rfcs/0024-os-ga-ecosystem-global-routing.md` | accepted |
+| Research — Formal Verification | `docs/rfcs/0025-research-formal-verification.md` | accepted |
+| Research — Neuromorphic Edge | `docs/rfcs/0026-research-neuromorphic-edge.md` | accepted |
+| Research — Decentralized Consensus | `docs/rfcs/0027-research-decentralized-consensus.md` | accepted |

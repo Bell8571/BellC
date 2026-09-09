@@ -328,10 +328,23 @@ Ecosystem-as-infrastructure (marketplace deps at resolve time) and global DAG ro
 | Dependency resolve | GA | Local registry; verify signature before bind |
 | Global route | GA | Latency/health across cloud \| on-prem \| edge; no cloud bias |
 | Phone-home registry | Denied | Customer mirror only by default |
-| Research tracks | Blocked | Formal verification, neuromorphic, decentralized consensus, AI co-pilot — each needs RFC |
+| Research tracks | Partial | Formal / neuromorphic / decentralized — see v5.1.0-research; AI Co-Pilot still blocked |
+
+---
+
+## v5.1.0-research — Research tracks (2026-09-09)
+
+Three research scaffolds directed by DRI (formal verification, neuromorphic edge, decentralized consensus). AI Co-Pilot remains RFC-gated.
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| RFC-0025 Formal Verification | Accepted | Local invariant checkers for DAG + consensus traces |
+| RFC-0026 Neuromorphic Edge | Accepted | Spike/energy budget edge placement |
+| RFC-0027 Decentralized Consensus | Accepted | Multi-org quorum attestation; no coordinator org |
+| AI Co-Pilot | Blocked | Needs dedicated RFC before scaffold |
 
 ---
 
 ## Append Future Releases Below
 
-<!-- later research-track entries append below this line -->
+<!-- later AI co-pilot / research entries append below this line -->

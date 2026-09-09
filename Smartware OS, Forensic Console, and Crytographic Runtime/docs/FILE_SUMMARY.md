@@ -35,6 +35,9 @@ Paths are from the repository root. Files marked *planned; not in repo* are rank
 | `docs/rfcs/0022-os-alpha-unified-plane.md` | RFC-0022 OS Alpha Unified Plane | OS Alpha | accepted |
 | `docs/rfcs/0023-os-beta-edge-kernels-healing.md` | RFC-0023 OS Beta Edge/Kernels/Healing | OS Beta | accepted |
 | `docs/rfcs/0024-os-ga-ecosystem-global-routing.md` | RFC-0024 OS GA Ecosystem + Global Routing | OS GA | accepted |
+| `docs/rfcs/0025-research-formal-verification.md` | RFC-0025 Formal Verification | Research | accepted |
+| `docs/rfcs/0026-research-neuromorphic-edge.md` | RFC-0026 Neuromorphic Edge | Research | accepted |
+| `docs/rfcs/0027-research-decentralized-consensus.md` | RFC-0027 Decentralized Consensus | Research | accepted |
 
 ## Phase 2 RFCs
 
@@ -49,7 +52,7 @@ Paths are from the repository root. Files marked *planned; not in repo* are rank
 
 ## Phase 1 RFCs
 
-RFC-0001 through RFC-0007 are `accepted` (DRI: Bell Corporate Labs). Phase 1 → Phase 2 gate cleared 2026-09-09. Phase 2 RFCs RFC-0008…0013 are `accepted`. Phase 2 → Phase 3 gate cleared 2026-09-09. M3.1–M3.8 RFCs RFC-0014…0021 accepted 2026-09-09. Phase 3 → OS gate cleared 2026-09-09. OS Alpha RFC-0022 accepted 2026-09-09. OS Beta RFC-0023 accepted 2026-09-09. OS GA RFC-0024 accepted 2026-09-09.
+RFC-0001 through RFC-0007 are `accepted` (DRI: Bell Corporate Labs). Phase 1 → Phase 2 gate cleared 2026-09-09. Phase 2 RFCs RFC-0008…0013 are `accepted`. Phase 2 → Phase 3 gate cleared 2026-09-09. M3.1–M3.8 RFCs RFC-0014…0021 accepted 2026-09-09. Phase 3 → OS gate cleared 2026-09-09. OS Alpha RFC-0022 accepted 2026-09-09. OS Beta RFC-0023 accepted 2026-09-09. OS GA RFC-0024 accepted 2026-09-09. Research RFCs 0025–0027 accepted 2026-09-09 (AI Co-Pilot still open).
 
 | File | RFC | Milestone | Status |
 | --- | --- | --- | --- |

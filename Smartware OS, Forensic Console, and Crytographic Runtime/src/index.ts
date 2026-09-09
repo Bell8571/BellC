@@ -321,3 +321,36 @@ export {
   type PackageDependencySpec,
   type ResolvedDependency,
 } from "./osGa.js";
+
+export {
+  createFormalVerifier,
+  type CompiledDagCert,
+  type ConsensusTraceEvent,
+  type DagNodeSpec,
+  type FormalResult,
+  type FormalVerifier,
+  type FormalVerifierConfig,
+  type InvariantResult,
+  type VerificationCertificate,
+  type VerifyStatus,
+} from "./formalVerification.js";
+
+export {
+  createNeuromorphicEdgeScheduler,
+  type EdgeNeuron,
+  type NeuromorphicEdgeScheduler,
+  type NeuromorphicEdgeSchedulerConfig,
+  type NeuromorphicPlaceDecision,
+  type NeuromorphicPlaceRequest,
+  type NeuroResult,
+} from "./neuromorphicScheduler.js";
+
+export {
+  createDecentralizedOrgConsensus,
+  type Attestation,
+  type DecentralizedCommit,
+  type DecentralizedOrgConsensus,
+  type DecentralizedOrgConsensusConfig,
+  type DecentralResult,
+  type OrgRegistration,
+} from "./decentralizedConsensus.js";
