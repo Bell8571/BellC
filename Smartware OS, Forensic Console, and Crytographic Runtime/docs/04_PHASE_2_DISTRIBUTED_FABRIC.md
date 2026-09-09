@@ -6,16 +6,21 @@ version: "1.0.0"
 date: 2026-09-09
 phase: 2
 window: "Q3 2027 – Q2 2028"
-status: planned
+status: active
 depends_on: "Phase 1 GA (M1.6)"
 owner: Distributed Systems Team
 authority: CORE-DIRECTIVE:AUTHORITY-0
+phase_gate_cleared: "2026-09-09"
+phase_gate_cleared_by: "Bell Corporate Labs (DRI)"
 ---
 
 # Phase 2 — Distributed Fabric
 
 > Extend the Phase 1 DAG runtime across multiple nodes into
 > a cluster-aware, fault-tolerant distributed execution fabric.
+>
+> **Phase gate:** Phase 1 → Phase 2 cleared 2026-09-09 by DRI
+> (Bell Corporate Labs). Phase 2 scaffolding on `main` is authorised.
 
 ---
 
@@ -88,12 +93,20 @@ export is an explicit opt-in with customer-configured endpoints.
 
 ---
 
+## Related RFCs
+
+| Milestone | RFC | Status |
+|-----------|-----|--------|
+| M2.1 | `docs/rfcs/0008-cluster-topology-manager.md` | accepted |
+
+---
+
 ## Dependencies
 
-- Phase 1 GA (M1.6) verified before any Phase 2 code reaches main
-- Network topology abstraction layer required before M2.1
+- Phase 1 GA (M1.6) verified before any Phase 2 code reaches main — **cleared 2026-09-09**
+- Network topology abstraction layer required before M2.1 — delivered in RFC-0008 / `clusterTransport.ts`
 - Consensus store requires formal invariant review before M2.4 merges
-- Security model (mTLS, cert rotation, RBAC schema) defined before M2.5
+- Security model (mTLS, cert rotation, RBAC schema) defined before M2.5 — mTLS default locked in RFC-0008
 
 ---
 

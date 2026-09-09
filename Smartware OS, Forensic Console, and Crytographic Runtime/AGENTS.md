@@ -56,11 +56,12 @@ Higher-numbered documents never override lower-numbered ones.
 
 | Item | Value |
 |------|-------|
-| Current version | v1.6.0-phase1 alpha library (not a verified product GA ship) |
-| Active phase | Phase 1 — Runtime DAG (M1.1–M1.6 implementation present; phase gate to Phase 2 **not** cleared) |
-| Phase 1 window | Q4 2026 – Q2 2027 |
-| Next milestone | M1.6 phase-gate review (human DRI). Do **not** scaffold Phase 2 until the gate is cleared. |
-| Accepted RFCs | RFC-0001…0007 (Plugin API, Compiler, Resolver, Engine, Visualizer, Branching, Durable State) |
+| Current version | v2.1.0-m21 alpha (Phase 2 started; not a verified product GA ship) |
+| Active phase | Phase 2 — Distributed Fabric |
+| Phase 1 window | Q4 2026 – Q2 2027 (**gate cleared** 2026-09-09 by DRI) |
+| Phase 2 window | Q3 2027 – Q2 2028 |
+| Next milestone | M2.1 — Cluster Topology Manager v1 |
+| Accepted RFCs | RFC-0001…0007 (Phase 1); RFC-0008 Topology (M2.1) |
 | Phase gate authority | Human DRI sign-off required |
 | Amendment direction | Amendment A (ownerware) — tiebreaker only |
 | DRI | Bell Corporate Labs |
@@ -200,5 +201,6 @@ smartware-core/
         ├── 0004-dag-visualizer.md
         ├── 0005-conditional-branching-events.md
         ├── 0006-plugin-api.md
-        └── 0007-durable-resolver-state.md
+        ├── 0007-durable-resolver-state.md
+        └── 0008-cluster-topology-manager.md
 ```

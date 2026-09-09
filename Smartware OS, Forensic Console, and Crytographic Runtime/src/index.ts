@@ -84,3 +84,21 @@ export {
 } from "./durableStore.js";
 
 export { createTaskExecutor, runWorkflow, type RunOptions, type RunResult } from "./runtime.js";
+
+export {
+  createInProcessTransport,
+  createMtlsTransportConfig,
+  type MtlsMaterial,
+  type TopologyMessage,
+  type TopologyTransport,
+} from "./clusterTransport.js";
+
+export {
+  createTopologyManager,
+  type ClusterMember,
+  type MembershipEvent,
+  type MembershipState,
+  type TopologyClock,
+  type TopologyManager,
+  type TopologyManagerConfig,
+} from "./topologyManager.js";

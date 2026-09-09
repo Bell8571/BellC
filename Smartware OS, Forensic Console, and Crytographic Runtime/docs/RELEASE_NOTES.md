@@ -86,6 +86,19 @@ Alpha **library** covering M1.1–M1.6 surfaces in this repository. Not a verifi
 
 ---
 
+## v2.1.0-m21 — Cluster Topology Manager Alpha (2026-09-09)
+
+Phase 1 → Phase 2 gate cleared by DRI. M2.1 alpha library.
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| Phase gate Phase 1 → 2 | Cleared | 2026-09-09 · Bell Corporate Labs |
+| RFC-0008 Topology Manager | Accepted | Heartbeat, join/evacuate/evict, SUSPECT→DEAD |
+| In-process transport | Alpha | Test / single-process simulation only |
+| mTLS default | Enforced | Network transport factory fail-closed without cert/key/ca |
+
+---
+
 ## Append Future Releases Below
 
-<!-- later Phase 1 / Phase 2 entries append below this line -->
+<!-- later Phase 2 entries append below this line -->

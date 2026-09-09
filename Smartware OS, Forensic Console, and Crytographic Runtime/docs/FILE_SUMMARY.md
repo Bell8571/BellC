@@ -15,9 +15,15 @@ Paths are from the repository root. Files marked *planned; not in repo* are rank
 | `docs/RELEASE_NOTES.md` | `RELEASE:AUDIT-LOG-v1.0.0` | Baseline spec of the v1.0.0 GA *surface* (docs tree; not in-repo binaries) |
 | `docs/integration-guide.md` | `INTEGRATION:SDK-DEVELOPER` | SDK / developer integration (*planned; not in repo*) |
 
+## Phase 2 RFCs
+
+| File | RFC | Milestone | Status |
+| --- | --- | --- | --- |
+| `docs/rfcs/0008-cluster-topology-manager.md` | RFC-0008 Cluster Topology Manager | M2.1 | accepted |
+
 ## Phase 1 RFCs
 
-RFC-0001 through RFC-0007 are `accepted` (DRI: Bell Corporate Labs). Phase 1 implementation alpha is in `src/`. Phase 1 → Phase 2 gate is **not** cleared until a human DRI records phase-gate sign-off.
+RFC-0001 through RFC-0007 are `accepted` (DRI: Bell Corporate Labs). Phase 1 → Phase 2 gate cleared 2026-09-09.
 
 | File | RFC | Milestone | Status |
 | --- | --- | --- | --- |

@@ -6,8 +6,10 @@ version: "1.0.0"
 date: 2026-09-09
 phase: 1
 window: "Q4 2026 – Q2 2027"
-status: active
+status: ga-complete
 depends_on: "v1.0.0 GA"
+phase_gate_cleared_to_phase_2: "2026-09-09"
+phase_gate_cleared_by: "Bell Corporate Labs (DRI)"
 owner: Core Runtime Team
 authority: CORE-DIRECTIVE:AUTHORITY-0
 ---

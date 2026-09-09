@@ -1,9 +1,9 @@
 {
   "name": "@smartware/core",
-  "version": "1.6.0-phase1",
+  "version": "2.1.0-m21",
   "private": true,
   "type": "module",
-  "description": "Smartware Phase 1 — DAG compiler, resolver, engine, visualizer, branching",
+  "description": "Smartware Phase 2 — Distributed Fabric (M2.1 Topology) + Phase 1 DAG runtime",
   "exports": {
     ".": "./src/index.ts"
   },
