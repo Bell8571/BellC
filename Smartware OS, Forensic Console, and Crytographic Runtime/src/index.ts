@@ -102,3 +102,15 @@ export {
   type TopologyManager,
   type TopologyManagerConfig,
 } from "./topologyManager.js";
+
+export {
+  createDistributedScheduler,
+  createPlacementLedger,
+  type DistributedScheduler,
+  type NodePlacement,
+  type PlaceResult,
+  type PlacementLedger,
+  type PlacementPlan,
+  type PlacementRecord,
+  type SchedulerWeights,
+} from "./distributedScheduler.js";

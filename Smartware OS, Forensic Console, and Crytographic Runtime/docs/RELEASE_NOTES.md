@@ -99,6 +99,16 @@ Phase 1 → Phase 2 gate cleared by DRI. M2.1 alpha library.
 
 ---
 
+## v2.2.0-m22 — Distributed DAG Scheduler Alpha (2026-09-09)
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| RFC-0009 Distributed Scheduler | Accepted | Locality, affinity, load balance |
+| ALIVE-only placement | Alpha | Fail-closed if no ALIVE members |
+| PlacementLedger | Alpha stub | Process-local; M2.4 will replace |
+
+---
+
 ## Append Future Releases Below
 
 <!-- later Phase 2 entries append below this line -->
