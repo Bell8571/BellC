@@ -154,3 +154,17 @@ export {
   type SplitBrainPolicy,
   type WorkflowCheckpoint,
 } from "./failover.js";
+
+export {
+  createObservability,
+  type ExportConfig,
+  type LogLevel,
+  type LogRecord,
+  type MetricPoint,
+  type Observability,
+  type ObservabilityInitResult,
+  type ObservabilitySnapshot,
+  type SpanHandle,
+  type SpanRecord,
+  type SpanStatus,
+} from "./observability.js";

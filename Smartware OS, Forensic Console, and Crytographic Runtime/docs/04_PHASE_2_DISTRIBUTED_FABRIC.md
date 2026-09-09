@@ -6,12 +6,14 @@ version: "1.0.0"
 date: 2026-09-09
 phase: 2
 window: "Q3 2027 – Q2 2028"
-status: active
+status: ga-ready
 depends_on: "Phase 1 GA (M1.6)"
 owner: Distributed Systems Team
 authority: CORE-DIRECTIVE:AUTHORITY-0
 phase_gate_cleared: "2026-09-09"
 phase_gate_cleared_by: "Bell Corporate Labs (DRI)"
+phase_2_implementation: "M2.1–M2.6 alpha complete 2026-09-09"
+phase_gate_to_phase_3: "not cleared"
 ---
 
 # Phase 2 — Distributed Fabric
@@ -21,6 +23,9 @@ phase_gate_cleared_by: "Bell Corporate Labs (DRI)"
 >
 > **Phase gate:** Phase 1 → Phase 2 cleared 2026-09-09 by DRI
 > (Bell Corporate Labs). Phase 2 scaffolding on `main` is authorised.
+>
+> **M2.6 status:** Observability + Phase 2 GA *surface* complete in-repo.
+> Phase 2 → Phase 3 gate is **not** cleared until human DRI sign-off.
 
 ---
 
@@ -102,6 +107,7 @@ export is an explicit opt-in with customer-configured endpoints.
 | M2.3 | `docs/rfcs/0010-smartware-message-bus.md` | accepted |
 | M2.4 | `docs/rfcs/0011-distributed-state-store.md` | accepted |
 | M2.5 | `docs/rfcs/0012-fault-tolerance-multi-tenancy.md` | accepted |
+| M2.6 | `docs/rfcs/0013-observability-layer.md` | accepted |
 
 ---
 

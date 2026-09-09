@@ -56,12 +56,12 @@ Higher-numbered documents never override lower-numbered ones.
 
 | Item | Value |
 |------|-------|
-| Current version | v2.5.0-m25 alpha (Phase 2 M2.1–M2.5; not a verified product GA ship) |
-| Active phase | Phase 2 — Distributed Fabric |
+| Current version | v2.6.0-phase2 alpha (M2.1–M2.6 present; Phase 2 → Phase 3 gate **not** cleared) |
+| Active phase | Phase 2 — Distributed Fabric (implementation complete; awaiting DRI phase-gate review) |
 | Phase 1 window | Q4 2026 – Q2 2027 (**gate cleared** 2026-09-09 by DRI) |
 | Phase 2 window | Q3 2027 – Q2 2028 |
-| Next milestone | M2.6 — Observability Layer + Phase 2 GA |
-| Accepted RFCs | RFC-0001…0012 |
+| Next milestone | Phase 2 → Phase 3 gate review (human DRI). Do **not** scaffold Phase 3 until cleared. |
+| Accepted RFCs | RFC-0001…0013 |
 | Phase gate authority | Human DRI sign-off required |
 | Amendment direction | Amendment A (ownerware) — tiebreaker only |
 | DRI | Bell Corporate Labs |
@@ -206,5 +206,6 @@ smartware-core/
         ├── 0009-distributed-dag-scheduler.md
         ├── 0010-smartware-message-bus.md
         ├── 0011-distributed-state-store.md
-        └── 0012-fault-tolerance-multi-tenancy.md
+        ├── 0012-fault-tolerance-multi-tenancy.md
+        └── 0013-observability-layer.md
 ```

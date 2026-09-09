@@ -143,6 +143,20 @@ Phase 1 → Phase 2 gate cleared by DRI. M2.1 alpha library.
 
 ---
 
+## v2.6.0-phase2 — Observability + Phase 2 GA Surface (2026-09-09)
+
+Phase 2 milestones M2.1–M2.6 are present as an alpha library. **Not** a verified production GA ship. Phase 2 → Phase 3 gate still requires human DRI review.
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| RFC-0013 Observability | Accepted | Spans, metrics, logs |
+| Local-only default | Alpha | `export.enabled` defaults false |
+| Opt-in export | Alpha | Requires customer endpoint; fail-closed if missing |
+| Central SaaS telemetry | Prohibited | No hardcoded collectors |
+| Phase 2 → Phase 3 gate | Open | Awaiting DRI |
+
+---
+
 ## Append Future Releases Below
 
-<!-- later Phase 2 entries append below this line -->
+<!-- later Phase 3 entries append below this line -->
