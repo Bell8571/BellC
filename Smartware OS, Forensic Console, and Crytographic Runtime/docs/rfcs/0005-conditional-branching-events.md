@@ -4,23 +4,23 @@ classification: NORMATIVE
 security_level: INTERNAL
 rfc_number: "0005"
 title: "Implement Conditional Branching and Event-Driven Triggers — Runtime Predicates, Bounded Loops, and Local Resume Hooks"
-status: draft
+status: accepted
 created: 2026-09-09
 updated: 2026-09-09
 author: Bell Corporate Labs
-dri: ""
+dri: "Bell Corporate Labs"
 phase: 1
 milestone: "M1.5"
 authority: docs/AI_INSTRUCTIONS.md
 supersedes: ~
 superseded_by: ~
-blocked_by: "RFC-0003 (docs/rfcs/0003-parallel-execution-engine.md)"
+blocked_by: ~
 ---
 
 # RFC-0005 — Conditional Branching + Event Triggers
 
-> **Status:** `draft`
-> **DRI:** _assign before moving to in-review_
+> **Status:** `accepted`
+> **DRI:** Bell Corporate Labs
 > **Phase:** 1 — Runtime DAG
 > **Milestone:** M1.5 — Conditional Branching + Event Triggers (March 2027)
 > **Created:** 2026-09-09
@@ -558,6 +558,16 @@ If this RFC is found incorrect post-merge:
   moving to in-review.
   This RFC does not lock Phase 1 GA (M1.6) and does
   not authorise Phase 2 work.
+
+2026-09-09 | Bell Corporate Labs | Status: draft → in-review
+  RFC-0003 accepted. Predicates are pure (no eval);
+  loops require maxIterations; webhooks default to
+  loopback; trigger deliveries are idempotent.
+
+2026-09-09 | Bell Corporate Labs | Status: in-review → accepted
+  Design approved. Linked to milestone: M1.5.
+  Sign-off directed by the DRI in session; agent recorded
+  the entry and did not self-approve.
 ```
 
 ---

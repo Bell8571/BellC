@@ -17,7 +17,7 @@ Paths are from the repository root. Files marked *planned; not in repo* are rank
 
 ## Phase 1 RFCs
 
-RFC-0001, RFC-0002, and RFC-0006 are `accepted` (DRI: Bell Corporate Labs). RFC-0003–0005 remain `draft` until §8 records `accepted`. Implementation of a draft RFC is blocked. M1.2 code must wait until M1.1 cycle detection exists and passes.
+RFC-0001 through RFC-0007 are `accepted` (DRI: Bell Corporate Labs). Phase 1 implementation alpha is in `src/`. Phase 1 → Phase 2 gate is **not** cleared until a human DRI records phase-gate sign-off.
 
 | File | RFC | Milestone | Status |
 | --- | --- | --- | --- |
@@ -25,6 +25,7 @@ RFC-0001, RFC-0002, and RFC-0006 are `accepted` (DRI: Bell Corporate Labs). RFC-
 | `docs/rfcs/0006-plugin-api.md` | RFC-0006 Plugin API v1 | M1.1 | accepted |
 | `docs/rfcs/0001-dag-compiler.md` | RFC-0001 DAG Compiler | M1.1 | accepted |
 | `docs/rfcs/0002-dependency-resolver.md` | RFC-0002 Dependency Resolver | M1.2 | accepted |
-| `docs/rfcs/0003-parallel-execution-engine.md` | RFC-0003 Parallel Execution Engine | M1.3 | draft |
-| `docs/rfcs/0004-dag-visualizer.md` | RFC-0004 DAG Visualizer | M1.4 | draft |
-| `docs/rfcs/0005-conditional-branching-events.md` | RFC-0005 Branching + Event Triggers | M1.5 | draft |
+| `docs/rfcs/0003-parallel-execution-engine.md` | RFC-0003 Parallel Execution Engine | M1.3 | accepted |
+| `docs/rfcs/0004-dag-visualizer.md` | RFC-0004 DAG Visualizer | M1.4 | accepted |
+| `docs/rfcs/0005-conditional-branching-events.md` | RFC-0005 Branching + Event Triggers | M1.5 | accepted |
+| `docs/rfcs/0007-durable-resolver-state.md` | RFC-0007 Durable Resolver State | M1.6 | accepted |

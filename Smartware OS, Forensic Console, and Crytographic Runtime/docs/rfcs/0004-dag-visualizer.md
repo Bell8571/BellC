@@ -4,23 +4,23 @@ classification: NORMATIVE
 security_level: INTERNAL
 rfc_number: "0004"
 title: "Implement the Smartware DAG Visualizer — Live and Historical Trace Inspection as a Daemon Sidecar"
-status: draft
+status: accepted
 created: 2026-09-09
 updated: 2026-09-09
 author: Bell Corporate Labs
-dri: ""
+dri: "Bell Corporate Labs"
 phase: 1
 milestone: "M1.4"
 authority: docs/AI_INSTRUCTIONS.md
 supersedes: ~
 superseded_by: ~
-blocked_by: "RFC-0003 (docs/rfcs/0003-parallel-execution-engine.md)"
+blocked_by: ~
 ---
 
 # RFC-0004 — DAG Visualizer Beta
 
-> **Status:** `draft`
-> **DRI:** _assign before moving to in-review_
+> **Status:** `accepted`
+> **DRI:** Bell Corporate Labs
 > **Phase:** 1 — Runtime DAG
 > **Milestone:** M1.4 — DAG Visualizer Beta (February 2027)
 > **Created:** 2026-09-09
@@ -490,6 +490,15 @@ If the Visualizer is found to be incorrect post-merge:
   Open questions in §6 require DRI resolution before
   moving to in-review.
   M1.4 Beta is CLI-only; web UI is stretch.
+
+2026-09-09 | Bell Corporate Labs | Status: draft → in-review
+  RFC-0003 accepted. Consumer-only sidecar confirmed;
+  no invented edges; CLI text render for Beta.
+
+2026-09-09 | Bell Corporate Labs | Status: in-review → accepted
+  Design approved. Linked to milestone: M1.4.
+  Sign-off directed by the DRI in session; agent recorded
+  the entry and did not self-approve.
 ```
 
 ---

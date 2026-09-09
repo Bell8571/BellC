@@ -80,16 +80,17 @@ specific DAG nodes without restarting the whole graph.
 
 ## Related RFCs
 
-RFC-0001, RFC-0002, and RFC-0006 are `accepted`. RFC-0003–0005 remain `draft` until a human DRI records `accepted` in §8.
+RFC-0001 through RFC-0007 are `accepted` (DRI: Bell Corporate Labs). Phase 1 → Phase 2 still requires explicit human phase-gate sign-off; agents must not scaffold Phase 2 until that gate is cleared.
 
 | Milestone | RFC | Status |
 |-----------|-----|--------|
 | M1.1 | `docs/rfcs/0006-plugin-api.md` | accepted |
 | M1.1 | `docs/rfcs/0001-dag-compiler.md` | accepted |
 | M1.2 | `docs/rfcs/0002-dependency-resolver.md` | accepted |
-| M1.3 | `docs/rfcs/0003-parallel-execution-engine.md` | draft |
-| M1.4 | `docs/rfcs/0004-dag-visualizer.md` | draft |
-| M1.5 | `docs/rfcs/0005-conditional-branching-events.md` | draft |
+| M1.3 | `docs/rfcs/0003-parallel-execution-engine.md` | accepted |
+| M1.4 | `docs/rfcs/0004-dag-visualizer.md` | accepted |
+| M1.5 | `docs/rfcs/0005-conditional-branching-events.md` | accepted |
+| M1.6 | `docs/rfcs/0007-durable-resolver-state.md` | accepted |
 
 ---
 

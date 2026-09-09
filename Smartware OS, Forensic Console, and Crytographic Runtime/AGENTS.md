@@ -56,11 +56,11 @@ Higher-numbered documents never override lower-numbered ones.
 
 | Item | Value |
 |------|-------|
-| Current version | v1.0.0 baseline spec (this tree is documentation; not a verified in-repo ship) |
-| Active phase | Phase 1 — Runtime DAG |
+| Current version | v1.6.0-phase1 alpha library (not a verified product GA ship) |
+| Active phase | Phase 1 — Runtime DAG (M1.1–M1.6 implementation present; phase gate to Phase 2 **not** cleared) |
 | Phase 1 window | Q4 2026 – Q2 2027 |
-| Next milestone | M1.1 — DAG Compiler Alpha (Oct 2026). Next *implementation* is still M1.1, not M1.2. |
-| Accepted RFCs | RFC-0006 Plugin API, RFC-0001 Compiler, RFC-0002 Resolver |
+| Next milestone | M1.6 phase-gate review (human DRI). Do **not** scaffold Phase 2 until the gate is cleared. |
+| Accepted RFCs | RFC-0001…0007 (Plugin API, Compiler, Resolver, Engine, Visualizer, Branching, Durable State) |
 | Phase gate authority | Human DRI sign-off required |
 | Amendment direction | Amendment A (ownerware) — tiebreaker only |
 | DRI | Bell Corporate Labs |
@@ -199,5 +199,6 @@ smartware-core/
         ├── 0003-parallel-execution-engine.md
         ├── 0004-dag-visualizer.md
         ├── 0005-conditional-branching-events.md
-        └── 0006-plugin-api.md
+        ├── 0006-plugin-api.md
+        └── 0007-durable-resolver-state.md
 ```

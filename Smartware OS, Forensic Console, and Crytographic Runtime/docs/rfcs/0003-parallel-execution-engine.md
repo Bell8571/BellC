@@ -4,23 +4,23 @@ classification: NORMATIVE
 security_level: INTERNAL
 rfc_number: "0003"
 title: "Implement the Smartware Parallel Execution Engine — Concurrent DAG Branch Execution, Back-Pressure, and Resource Limits"
-status: draft
+status: accepted
 created: 2026-09-09
 updated: 2026-09-09
 author: Bell Corporate Labs
-dri: ""
+dri: "Bell Corporate Labs"
 phase: 1
 milestone: "M1.3"
 authority: docs/AI_INSTRUCTIONS.md
 supersedes: ~
 superseded_by: ~
-blocked_by: "RFC-0002 (docs/rfcs/0002-dependency-resolver.md)"
+blocked_by: ~
 ---
 
 # RFC-0003 — Parallel Execution Engine
 
-> **Status:** `draft`
-> **DRI:** _assign before moving to in-review_
+> **Status:** `accepted`
+> **DRI:** Bell Corporate Labs
 > **Phase:** 1 — Runtime DAG
 > **Milestone:** M1.3 — Parallel Execution Engine (January 2027)
 > **Created:** 2026-09-09
@@ -639,6 +639,17 @@ If the Engine is found to be incorrect post-merge:
   M1.5 (Conditional Branching) is blocked on the
   dispatch interface (§3.2 ExecutionEngine.dispatch)
   being frozen.
+
+2026-09-09 | Bell Corporate Labs | Status: draft → in-review
+  RFC-0002 is accepted. Open questions resolved for
+  Phase 1 alpha: in-process worker pool, back-pressure
+  states OPEN/PRESSURED/SATURATED, ExecutionStreamEvent
+  frozen for M1.4 consumer.
+
+2026-09-09 | Bell Corporate Labs | Status: in-review → accepted
+  Design approved. Linked to milestone: M1.3.
+  Sign-off directed by the DRI in session; agent recorded
+  the entry and did not self-approve.
 ```
 
 ---

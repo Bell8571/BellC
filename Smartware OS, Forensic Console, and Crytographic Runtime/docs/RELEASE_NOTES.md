@@ -69,6 +69,23 @@ Alpha **library** in this repository. Not a GA runtime, not a verified ship.
 
 ---
 
+## v1.6.0-phase1 — Phase 1 Runtime DAG Alpha (2026-09-09)
+
+Alpha **library** covering M1.1–M1.6 surfaces in this repository. Not a verified product GA ship; Phase 1 → Phase 2 gate still requires human DRI review.
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| Plugin API + DAG Compiler | Alpha | RFC-0006 / RFC-0001 |
+| Dependency Resolver | Alpha | RFC-0002; in-memory transitions |
+| Parallel Execution Engine | Alpha | RFC-0003; worker pool + back-pressure |
+| DAG Visualizer | Alpha | RFC-0004; consumer-only frames / text render |
+| Branching + local triggers | Alpha | RFC-0005; predicates, if/switch/loop, webhook/queue |
+| Durable resolver snapshots | Alpha | RFC-0007; opt-in local JSON only |
+| `runWorkflow` runtime wiring | Alpha | Resolver ↔ Engine event loop |
+| Regression suite | Alpha | `npm test` covers compile, resolver, engine, visualizer, branching, durable, triggers |
+
+---
+
 ## Append Future Releases Below
 
-<!-- later Phase 1 alphas append below this line -->
+<!-- later Phase 1 / Phase 2 entries append below this line -->
