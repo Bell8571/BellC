@@ -1,9 +1,9 @@
 {
   "name": "@smartware/core",
-  "version": "2.2.0-m22",
+  "version": "2.3.0-m23",
   "private": true,
   "type": "module",
-  "description": "Smartware Phase 2 — Distributed Fabric (M2.1–M2.2) + Phase 1 DAG runtime",
+  "description": "Smartware Phase 2 — Distributed Fabric (M2.1–M2.3) + Phase 1 DAG runtime",
   "exports": {
     ".": "./src/index.ts"
   },

@@ -56,12 +56,12 @@ Higher-numbered documents never override lower-numbered ones.
 
 | Item | Value |
 |------|-------|
-| Current version | v2.2.0-m22 alpha (Phase 2 M2.1–M2.2; not a verified product GA ship) |
+| Current version | v2.3.0-m23 alpha (Phase 2 M2.1–M2.3; not a verified product GA ship) |
 | Active phase | Phase 2 — Distributed Fabric |
 | Phase 1 window | Q4 2026 – Q2 2027 (**gate cleared** 2026-09-09 by DRI) |
 | Phase 2 window | Q3 2027 – Q2 2028 |
-| Next milestone | M2.3 — Smartware Message Bus v1 |
-| Accepted RFCs | RFC-0001…0009 |
+| Next milestone | M2.4 — Distributed State Store |
+| Accepted RFCs | RFC-0001…0010 |
 | Phase gate authority | Human DRI sign-off required |
 | Amendment direction | Amendment A (ownerware) — tiebreaker only |
 | DRI | Bell Corporate Labs |
@@ -203,5 +203,6 @@ smartware-core/
         ├── 0006-plugin-api.md
         ├── 0007-durable-resolver-state.md
         ├── 0008-cluster-topology-manager.md
-        └── 0009-distributed-dag-scheduler.md
+        ├── 0009-distributed-dag-scheduler.md
+        └── 0010-smartware-message-bus.md
 ```

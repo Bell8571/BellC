@@ -114,3 +114,12 @@ export {
   type PlacementRecord,
   type SchedulerWeights,
 } from "./distributedScheduler.js";
+
+export {
+  createMessageBus,
+  type BusHandler,
+  type BusMessage,
+  type BusSubscription,
+  type MessageBus,
+  type PublishResult,
+} from "./messageBus.js";

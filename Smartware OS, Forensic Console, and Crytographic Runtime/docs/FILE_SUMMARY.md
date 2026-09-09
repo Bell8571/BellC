@@ -21,6 +21,7 @@ Paths are from the repository root. Files marked *planned; not in repo* are rank
 | --- | --- | --- | --- |
 | `docs/rfcs/0008-cluster-topology-manager.md` | RFC-0008 Cluster Topology Manager | M2.1 | accepted |
 | `docs/rfcs/0009-distributed-dag-scheduler.md` | RFC-0009 Distributed DAG Scheduler | M2.2 | accepted |
+| `docs/rfcs/0010-smartware-message-bus.md` | RFC-0010 Smartware Message Bus | M2.3 | accepted |
 
 ## Phase 1 RFCs
 

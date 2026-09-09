@@ -109,6 +109,17 @@ Phase 1 → Phase 2 gate cleared by DRI. M2.1 alpha library.
 
 ---
 
+## v2.3.0-m23 — Smartware Message Bus v1 Alpha (2026-09-09)
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| RFC-0010 Message Bus | Accepted | At-least-once, backlog replay |
+| Idempotent publish ids | Alpha | Duplicate id is a no-op |
+| Consumer reconnect / replayFrom | Alpha | Unacked redelivery; seq replay |
+| External broker | Not used | In-cluster local engine only |
+
+---
+
 ## Append Future Releases Below
 
 <!-- later Phase 2 entries append below this line -->
