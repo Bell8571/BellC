@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * smartware compile | run | inspect
+ * smartware compile | run | inspect | portal start
  * Feature flags: SMARTWARE_DAG_COMPILER=0, SMARTWARE_DAG_VISUALIZER=0, SMARTWARE_DAG_BRANCHING=0
  */
 
@@ -10,10 +10,11 @@ import { compile, parse } from "./dagCompiler.js";
 import { createNodeTypeRegistry } from "./pluginApi.js";
 import { runWorkflow } from "./runtime.js";
 import { createDagVisualizer, renderFrameText, type TraceRecord } from "./dagVisualizer.js";
+import { startPortal } from "./portal.js";
 
 function usage(): never {
   process.stderr.write(
-    "usage:\n  smartware compile <workflow.json|yaml>\n  smartware run <workflow.json|yaml> [--trace <path>] [--durable <path>]\n  smartware inspect --trace <path>\n",
+    "usage:\n  smartware compile <workflow.json|yaml>\n  smartware run <workflow.json|yaml> [--trace <path>] [--durable <path>]\n  smartware inspect --trace <path>\n  smartware portal start [--host 127.0.0.1] [--port 8787] [--allow-remote]\n",
   );
   process.exit(1);
 }
@@ -123,6 +124,38 @@ if (cmd === "inspect") {
   }
   process.stdout.write(renderFrameText(last));
   process.exit(0);
+}
+
+if (cmd === "portal") {
+  if (argv[1] !== "start") {
+    usage();
+  }
+  let host = "127.0.0.1";
+  let port = 8787;
+  let allowRemote = false;
+  for (let i = 2; i < argv.length; i++) {
+    if (argv[i] === "--host" && typeof argv[i + 1] === "string") {
+      host = argv[i + 1]!;
+      i += 1;
+    } else if (argv[i] === "--port" && typeof argv[i + 1] === "string") {
+      port = Number(argv[i + 1]);
+      i += 1;
+    } else if (argv[i] === "--allow-remote") {
+      allowRemote = true;
+    } else {
+      usage();
+    }
+  }
+  const started = await startPortal({ host, port, allowRemote });
+  if (!started.ok) {
+    process.stderr.write(`${started.code}: ${started.message}\n`);
+    process.exit(started.code === "DENIED" ? 2 : 1);
+  }
+  process.stdout.write(`Smartware portal listening at ${started.portal.url}\n`);
+  process.stdout.write("Local-only by default. Ctrl+C to stop.\n");
+  await new Promise<void>(() => {
+    /* keep process alive until signal */
+  });
 }
 
 usage();

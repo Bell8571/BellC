@@ -27,7 +27,10 @@ phase_gate_cleared_by: "Bell Corporate Labs (DRI)"
 > **M3.1 status:** Managed Control Plane Alpha complete in-repo
 > (RFC-0014).
 > **M3.2 status:** Serverless DAG Execution Beta complete in-repo
-> (RFC-0015). Do not scaffold M3.3 until directed.
+> (RFC-0015).
+> **M3.3 status:** Developer Portal v1 complete in-repo (RFC-0016).
+> SOC 2 Type II audit prep clock started with M3.3.
+> Do not scaffold M3.4 until directed.
 
 ---
 
@@ -115,6 +118,7 @@ Optional anonymized baseline model published by Smartware team.
 |-----------|-----|--------|
 | M3.1 | `docs/rfcs/0014-managed-control-plane.md` | accepted |
 | M3.2 | `docs/rfcs/0015-serverless-dag-runtime.md` | accepted |
+| M3.3 | `docs/rfcs/0016-developer-portal.md` | accepted |
 
 ---
 
@@ -123,7 +127,7 @@ Optional anonymized baseline model published by Smartware team.
 - Phase 2 GA (M2.6) verified before any Phase 3 work enters main — **cleared 2026-09-09**
 - Container/WASM runtime abstraction before M3.2
 - Global anycast network layer and latency SLA defined before M3.4
-- SOC 2 audit prep begins at M3.3 (6-month lead time)
+- SOC 2 audit prep begins at M3.3 (6-month lead time) — **started 2026-09-09 with M3.3**
 - AI scheduler baseline model quality bar set before M3.7
 
 ---

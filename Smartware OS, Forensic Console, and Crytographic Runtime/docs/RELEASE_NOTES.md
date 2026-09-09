@@ -193,6 +193,21 @@ Phase 3 M3.2 library surface. Runtime abstraction with scale-to-zero; metering o
 
 ---
 
+## v3.3.0-m33 — Developer Portal v1 (2026-09-09)
+
+Phase 3 M3.3 library surface. Local portal via `smartware portal start`. SOC 2 audit prep clock started.
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| RFC-0016 Developer Portal | Accepted | Editor + compile preview + monitor |
+| `smartware portal start` | Alpha | Default `127.0.0.1:8787` |
+| Non-loopback bind | Deny | Requires `--allow-remote` |
+| Phone-home / remote CDN | Prohibited | Inline CSS/JS only |
+| SOC 2 Type II prep | Started | M3.3 kickoff 2026-09-09 |
+| M3.4 Multi-Region | Blocked | Do not scaffold until directed |
+
+---
+
 ## Append Future Releases Below
 
 <!-- later Phase 3 entries append below this line -->

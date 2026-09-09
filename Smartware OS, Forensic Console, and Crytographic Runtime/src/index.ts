@@ -202,3 +202,13 @@ export {
   type ServerlessRuntimeConfig,
   type ServerlessSnapshot,
 } from "./serverlessRuntime.js";
+
+export {
+  PORTAL_VERSION,
+  createPortalRequestHandler,
+  startPortal,
+  type MonitorSnapshot,
+  type PortalHandle,
+  type PortalStartOptions,
+  type PortalStartResult,
+} from "./portal.js";
