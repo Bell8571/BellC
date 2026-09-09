@@ -6,14 +6,15 @@ version: "1.0.0"
 date: 2026-09-09
 phase: 2
 window: "Q3 2027 – Q2 2028"
-status: ga-ready
+status: ga-complete
 depends_on: "Phase 1 GA (M1.6)"
 owner: Distributed Systems Team
 authority: CORE-DIRECTIVE:AUTHORITY-0
 phase_gate_cleared: "2026-09-09"
 phase_gate_cleared_by: "Bell Corporate Labs (DRI)"
 phase_2_implementation: "M2.1–M2.6 alpha complete 2026-09-09"
-phase_gate_to_phase_3: "not cleared"
+phase_gate_to_phase_3: "2026-09-09"
+phase_gate_to_phase_3_cleared_by: "Bell Corporate Labs (DRI)"
 ---
 
 # Phase 2 — Distributed Fabric
@@ -25,7 +26,8 @@ phase_gate_to_phase_3: "not cleared"
 > (Bell Corporate Labs). Phase 2 scaffolding on `main` is authorised.
 >
 > **M2.6 status:** Observability + Phase 2 GA *surface* complete in-repo.
-> Phase 2 → Phase 3 gate is **not** cleared until human DRI sign-off.
+> **Phase 2 → Phase 3 gate:** cleared 2026-09-09 by DRI
+> (Bell Corporate Labs). Phase 3 scaffolding on `main` is authorised.
 
 ---
 
@@ -115,8 +117,9 @@ export is an explicit opt-in with customer-configured endpoints.
 
 - Phase 1 GA (M1.6) verified before any Phase 2 code reaches main — **cleared 2026-09-09**
 - Network topology abstraction layer required before M2.1 — delivered in RFC-0008 / `clusterTransport.ts`
-- Consensus store requires formal invariant review before M2.4 merges
+- Consensus store requires formal invariant review before M2.4 merges — **accepted under Phase 2 → Phase 3 gate clearance 2026-09-09**
 - Security model (mTLS, cert rotation, RBAC schema) defined before M2.5 — mTLS default locked in RFC-0008
+- Phase 2 → Phase 3 gate — **cleared 2026-09-09 by DRI (Bell Corporate Labs)**
 
 ---
 

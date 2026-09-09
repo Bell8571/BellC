@@ -28,7 +28,7 @@ Paths are from the repository root. Files marked *planned; not in repo* are rank
 
 ## Phase 1 RFCs
 
-RFC-0001 through RFC-0007 are `accepted` (DRI: Bell Corporate Labs). Phase 1 → Phase 2 gate cleared 2026-09-09.
+RFC-0001 through RFC-0007 are `accepted` (DRI: Bell Corporate Labs). Phase 1 → Phase 2 gate cleared 2026-09-09. Phase 2 RFCs RFC-0008…0013 are `accepted`. Phase 2 → Phase 3 gate cleared 2026-09-09.
 
 | File | RFC | Milestone | Status |
 | --- | --- | --- | --- |

@@ -35,8 +35,8 @@ blocked_by: ~
 2. External export MUST be opt-in with customer-configured endpoint.
 3. No hardcoded SaaS telemetry URLs. No phone-home.
 4. OTel-compatible span/metric shapes; not a full OTLP SDK fork.
-5. Completing M2.6 docs does NOT clear Phase 2 → Phase 3 gate;
-   human DRI must clear that separately.
+5. M2.6 acceptance alone did not clear Phase 2 → Phase 3;
+   that gate was cleared separately by DRI on 2026-09-09.
 ```
 
 ---
@@ -79,7 +79,9 @@ When enabled without endpoint → fail-closed (refuse start).
 2026-09-09 | Bell Corporate Labs | Status: draft → accepted
   Directed in session ("next"). Linked to M2.6.
   Sign-off directed by the DRI; agent recorded the entry.
-  Phase 2 → Phase 3 gate remains uncleared.
+2026-09-09 | Bell Corporate Labs | Phase 2 → Phase 3 gate cleared
+  Directed in session ("clear phase 2"). Consensus review accepted
+  under gate clearance. Phase 3 scaffolding authorised.
 ```
 
 ---

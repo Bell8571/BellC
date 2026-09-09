@@ -56,11 +56,12 @@ Higher-numbered documents never override lower-numbered ones.
 
 | Item | Value |
 |------|-------|
-| Current version | v2.6.0-phase2 alpha (M2.1–M2.6 present; Phase 2 → Phase 3 gate **not** cleared) |
-| Active phase | Phase 2 — Distributed Fabric (implementation complete; awaiting DRI phase-gate review) |
+| Current version | v2.6.0-phase2 alpha (M2.1–M2.6 present; Phase 2 → Phase 3 gate **cleared** 2026-09-09) |
+| Active phase | Phase 3 — Smartware Cloud (gate cleared; scaffolding authorised; no M3.x started yet) |
 | Phase 1 window | Q4 2026 – Q2 2027 (**gate cleared** 2026-09-09 by DRI) |
-| Phase 2 window | Q3 2027 – Q2 2028 |
-| Next milestone | Phase 2 → Phase 3 gate review (human DRI). Do **not** scaffold Phase 3 until cleared. |
+| Phase 2 window | Q3 2027 – Q2 2028 (**gate cleared** 2026-09-09 by DRI) |
+| Phase 3 window | Q3 2028 – Q4 2029 |
+| Next milestone | M3.1 — Control Plane Alpha (do not invent milestones; follow `docs/05_PHASE_3_SMARTWARE_CLOUD.md`) |
 | Accepted RFCs | RFC-0001…0013 |
 | Phase gate authority | Human DRI sign-off required |
 | Amendment direction | Amendment A (ownerware) — tiebreaker only |

@@ -6,11 +6,13 @@ version: "1.0.0"
 date: 2026-09-09
 phase: 3
 window: "Q3 2028 – Q4 2029"
-status: planned
+status: authorised
 depends_on: "Phase 2 GA (M2.6)"
 owner: Cloud Platform Team
 authority: CORE-DIRECTIVE:AUTHORITY-0
 amendment_direction: Amendment A (ownerware — directional only)
+phase_gate_cleared_from_phase_2: "2026-09-09"
+phase_gate_cleared_by: "Bell Corporate Labs (DRI)"
 ---
 
 # Phase 3 — Smartware Cloud
@@ -18,6 +20,10 @@ amendment_direction: Amendment A (ownerware — directional only)
 > Managed, multi-region cloud platform built on the Phase 2
 > distributed fabric. Serverless DAG execution, developer portal,
 > marketplace, and enterprise compliance.
+>
+> **Phase gate:** Phase 2 → Phase 3 cleared 2026-09-09 by DRI
+> (Bell Corporate Labs). Phase 3 scaffolding on `main` is authorised.
+> No M3.x implementation has started until directed.
 
 ---
 
@@ -25,7 +31,7 @@ amendment_direction: Amendment A (ownerware — directional only)
 
 TASK: Implement the Smartware Cloud platform layer.
 READ: docs/AI_INSTRUCTIONS.md before writing any code.
-PREREQUISITE: M2.6 (Phase 2 GA) must be verified.
+PREREQUISITE: M2.6 (Phase 2 GA) verified — **cleared 2026-09-09**.
 OWNERWARE TIEBREAKER: When two approaches are equal,
 prefer the one that can run self-hosted. See § 5 of
 docs/AI_INSTRUCTIONS.md.
@@ -101,7 +107,7 @@ Optional anonymized baseline model published by Smartware team.
 
 ## Dependencies
 
-- Phase 2 GA (M2.6) verified before any Phase 3 work enters main
+- Phase 2 GA (M2.6) verified before any Phase 3 work enters main — **cleared 2026-09-09**
 - Container/WASM runtime abstraction before M3.2
 - Global anycast network layer and latency SLA defined before M3.4
 - SOC 2 audit prep begins at M3.3 (6-month lead time)
