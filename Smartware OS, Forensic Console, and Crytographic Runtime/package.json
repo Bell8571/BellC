@@ -1,9 +1,9 @@
 {
   "name": "@smartware/core",
-  "version": "5.2.0-copilot",
+  "version": "5.3.0",
   "private": true,
   "type": "module",
-  "description": "Smartware OS GA + research (formal, neuromorphic, decentralized, AI Co-Pilot with Grok/Gemini/local)",
+  "description": "Smartware OS + Forensic Console + Cryptographic Runtime (product demo, local-first)",
   "exports": {
     ".": "./src/index.ts"
   },

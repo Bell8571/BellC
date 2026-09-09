@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * smartware compile | run | inspect | portal start
+ * smartware compile | run | inspect | portal start | demo
  * Feature flags: SMARTWARE_DAG_COMPILER=0, SMARTWARE_DAG_VISUALIZER=0, SMARTWARE_DAG_BRANCHING=0
  */
 
@@ -14,7 +14,7 @@ import { startPortal } from "./portal.js";
 
 function usage(): never {
   process.stderr.write(
-    "usage:\n  smartware compile <workflow.json|yaml>\n  smartware run <workflow.json|yaml> [--trace <path>] [--durable <path>]\n  smartware inspect --trace <path>\n  smartware portal start [--host 127.0.0.1] [--port 8787] [--allow-remote]\n",
+    "usage:\n  smartware compile <workflow.json|yaml>\n  smartware run <workflow.json|yaml> [--trace <path>] [--durable <path>]\n  smartware inspect --trace <path>\n  smartware portal start [--host 127.0.0.1] [--port 8787] [--allow-remote]\n  smartware demo\n",
   );
   process.exit(1);
 }
@@ -156,6 +156,13 @@ if (cmd === "portal") {
   await new Promise<void>(() => {
     /* keep process alive until signal */
   });
+}
+
+if (cmd === "demo") {
+  const { runProductDemo } = await import("./productDemo.js");
+  const report = await runProductDemo();
+  process.stdout.write(`${JSON.stringify(report, null, 2)}\n`);
+  process.exit(report.ok ? 0 : 1);
 }
 
 usage();

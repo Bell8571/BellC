@@ -360,6 +360,19 @@ Workflow authoring + optimisation assistant. Providers: **Grok**, **Gemini**, **
 
 ---
 
+## v5.3.0 — Product hardening + Forensic + Crypto (2026-09-09)
+
+End-to-end product demo (`smartware demo`), Forensic Console (RFC-0029), Cryptographic Runtime (RFC-0030), project-local git hygiene.
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| `runProductDemo` / `smartware demo` | GA | compile→run→heal→route→copilot→forensic→crypto |
+| RFC-0029 Forensic Console | Accepted | Hash-chained local evidence; export default off |
+| RFC-0030 Cryptographic Runtime | Accepted | Customer-held HMAC/AES handles |
+| Dedicated `smartware-core` git | Hygiene | Project-local `.git` (separate from home mega-repo) |
+
+---
+
 ## Append Future Releases Below
 
 <!-- later entries append below this line -->

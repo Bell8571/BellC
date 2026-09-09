@@ -3,3 +3,9 @@ dist/
 test/.tmp/
 *.log
 .DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json

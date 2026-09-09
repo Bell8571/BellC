@@ -367,3 +367,29 @@ export {
   type OptimisationSuggestion,
   type WorkflowNodeSketch,
 } from "./aiCopilot.js";
+
+export {
+  createForensicConsole,
+  type ForensicConsole,
+  type ForensicConsoleConfig,
+  type ForensicEvidence,
+  type ForensicEventInput,
+  type ForensicEventKind,
+  type ForensicResult,
+} from "./forensicConsole.js";
+
+export {
+  createCryptographicRuntime,
+  type CryptographicRuntime,
+  type CryptographicRuntimeConfig,
+  type CryptoResult,
+  type KeyHandle,
+  type SignedBlob,
+  type WrappedSecret,
+} from "./cryptographicRuntime.js";
+
+export {
+  runProductDemo,
+  type ProductDemoOptions,
+  type ProductDemoReport,
+} from "./productDemo.js";

@@ -139,3 +139,5 @@ Smartware OS work is gated on **all** of the following:
 | Research — Neuromorphic Edge | `docs/rfcs/0026-research-neuromorphic-edge.md` | accepted |
 | Research — Decentralized Consensus | `docs/rfcs/0027-research-decentralized-consensus.md` | accepted |
 | Research — AI Co-Pilot | `docs/rfcs/0028-research-ai-copilot.md` | accepted |
+| Product — Forensic Console | `docs/rfcs/0029-forensic-console.md` | accepted |
+| Product — Cryptographic Runtime | `docs/rfcs/0030-cryptographic-runtime.md` | accepted |
