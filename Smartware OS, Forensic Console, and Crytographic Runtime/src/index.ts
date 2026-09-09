@@ -308,3 +308,16 @@ export {
   type OsBetaPlaneConfig,
   type OsBetaResult,
 } from "./osBeta.js";
+
+export {
+  createOsGaRuntime,
+  type GaSubstrate,
+  type GaSubstrateKind,
+  type GlobalRouteDecision,
+  type GlobalRouteRequest,
+  type OsGaResult,
+  type OsGaRuntime,
+  type OsGaRuntimeConfig,
+  type PackageDependencySpec,
+  type ResolvedDependency,
+} from "./osGa.js";

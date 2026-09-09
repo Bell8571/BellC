@@ -1,9 +1,9 @@
 {
   "name": "@smartware/core",
-  "version": "4.1.0-os-beta",
+  "version": "5.0.0-os-ga",
   "private": true,
   "type": "module",
-  "description": "Smartware OS Beta (edge + kernels + healing) + OS Alpha + Phase 3 Cloud + Phase 2 fabric + Phase 1 DAG",
+  "description": "Smartware OS GA (ecosystem deps + global routing) + OS Beta/Alpha + Phase 3 Cloud + Phase 2 fabric + Phase 1 DAG",
   "exports": {
     ".": "./src/index.ts"
   },

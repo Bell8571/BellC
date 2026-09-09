@@ -26,8 +26,10 @@ phase_gate_cleared_by: "Bell Corporate Labs (DRI)"
 > self-optimizing scheduler v1 complete (RFC-0022).
 >
 > **OS Beta status:** Edge substrates, pluggable kernels (wasm/jvm/native/gpu),
-> and autonomous fault healing complete (RFC-0023). OS GA
-> (marketplace-as-runtime-dependency) — do not scaffold until directed.
+> and autonomous fault healing complete (RFC-0023).
+>
+> **OS GA status:** Ecosystem-as-infrastructure + global DAG routing
+> complete (RFC-0024). Research tracks still require standalone RFCs.
 
 ---
 
@@ -39,8 +41,9 @@ GATE: Phase 3 → OS cleared 2026-09-09 — scaffolding authorised.
 Do not invent OS tracks; follow this file and linked RFCs.
 SCHEDULER: Self-optimizing scheduler trains on local fleet
 data only. No central reinforcement-learning oracle.
-SCOPE: Cloud + on-prem in OS Alpha; edge + kernels + healing in OS Beta.
-ECOSYSTEM: Marketplace-as-runtime-dependency is OS GA.
+SCOPE: Cloud + on-prem in OS Alpha; edge + kernels + healing in OS Beta;
+ecosystem deps + global routing in OS GA.
+ECOSYSTEM: Marketplace-as-runtime-dependency shipped in OS GA (local mirror).
 Do not conflate with Phase 3 marketplace.
 RESEARCH TRACKS: Formal verification, neuromorphic edge
 scheduling, decentralized consensus, AI co-pilot.
@@ -131,3 +134,4 @@ Smartware OS work is gated on **all** of the following:
 |-----------|-----|--------|
 | OS Alpha | `docs/rfcs/0022-os-alpha-unified-plane.md` | accepted |
 | OS Beta | `docs/rfcs/0023-os-beta-edge-kernels-healing.md` | accepted |
+| OS GA | `docs/rfcs/0024-os-ga-ecosystem-global-routing.md` | accepted |

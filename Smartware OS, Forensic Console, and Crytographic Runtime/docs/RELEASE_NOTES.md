@@ -313,11 +313,25 @@ Edge substrates, pluggable runtime kernels, autonomous fault healing (local heal
 | Edge substrates | Beta | Allowed on `OsBetaPlane` (Alpha still denies) |
 | Kernels | Beta | `wasm` \| `jvm` \| `native` \| `gpu` |
 | Autonomous healing | Beta | Migrate when healthScore < threshold |
-| OS GA | Blocked | Marketplace-as-runtime-dependency — do not scaffold until directed |
+| OS GA | Directed | See v5.0.0-os-ga |
 | Research tracks | Blocked | Separate RFCs required |
+
+---
+
+## v5.0.0-os-ga — Smartware OS GA (2026-09-09)
+
+Ecosystem-as-infrastructure (marketplace deps at resolve time) and global DAG routing without cloud-boundary preference.
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| RFC-0024 OS GA | Accepted | Ecosystem + global routing |
+| Dependency resolve | GA | Local registry; verify signature before bind |
+| Global route | GA | Latency/health across cloud \| on-prem \| edge; no cloud bias |
+| Phone-home registry | Denied | Customer mirror only by default |
+| Research tracks | Blocked | Formal verification, neuromorphic, decentralized consensus, AI co-pilot — each needs RFC |
 
 ---
 
 ## Append Future Releases Below
 
-<!-- later OS GA / research-track entries append below this line -->
+<!-- later research-track entries append below this line -->
