@@ -23,6 +23,7 @@ Paths are from the repository root. Files marked *planned; not in repo* are rank
 | `docs/rfcs/0009-distributed-dag-scheduler.md` | RFC-0009 Distributed DAG Scheduler | M2.2 | accepted |
 | `docs/rfcs/0010-smartware-message-bus.md` | RFC-0010 Smartware Message Bus | M2.3 | accepted |
 | `docs/rfcs/0011-distributed-state-store.md` | RFC-0011 Distributed State Store | M2.4 | accepted |
+| `docs/rfcs/0012-fault-tolerance-multi-tenancy.md` | RFC-0012 Fault Tolerance + Multi-Tenancy | M2.5 | accepted |
 
 ## Phase 1 RFCs
 

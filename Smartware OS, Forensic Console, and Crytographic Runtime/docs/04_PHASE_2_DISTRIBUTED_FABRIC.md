@@ -101,6 +101,7 @@ export is an explicit opt-in with customer-configured endpoints.
 | M2.2 | `docs/rfcs/0009-distributed-dag-scheduler.md` | accepted |
 | M2.3 | `docs/rfcs/0010-smartware-message-bus.md` | accepted |
 | M2.4 | `docs/rfcs/0011-distributed-state-store.md` | accepted |
+| M2.5 | `docs/rfcs/0012-fault-tolerance-multi-tenancy.md` | accepted |
 
 ---
 

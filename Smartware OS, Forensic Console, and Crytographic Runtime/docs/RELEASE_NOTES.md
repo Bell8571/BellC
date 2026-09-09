@@ -131,6 +131,18 @@ Phase 1 → Phase 2 gate cleared by DRI. M2.1 alpha library.
 
 ---
 
+## v2.5.0-m25 — Fault Tolerance + Multi-Tenancy Alpha (2026-09-09)
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| RFC-0012 | Accepted | Failover, checkpoints, RBAC, namespaces |
+| RBAC schema | v1 | viewer / operator / admin; deny-by-default |
+| Namespace quotas | Alpha | maxConcurrentWorkflows, maxPlacedNodes |
+| Placement failover | Alpha | Reassign DEAD/EVICTED hosts; completed nodes kept |
+| Split-brain policy | Alpha | Default refuse_writes below quorum |
+
+---
+
 ## Append Future Releases Below
 
 <!-- later Phase 2 entries append below this line -->

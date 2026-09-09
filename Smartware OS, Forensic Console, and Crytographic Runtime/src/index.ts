@@ -133,3 +133,24 @@ export {
   type LogEntry,
   type RaftRole,
 } from "./consensusStore.js";
+
+export {
+  RBAC_SCHEMA_VERSION,
+  createTenancyController,
+  type AuthzResult,
+  type Namespace,
+  type NamespaceQuotas,
+  type Permission,
+  type RoleBinding,
+  type RoleName,
+  type TenancyController,
+} from "./tenancy.js";
+
+export {
+  createFailoverController,
+  type FailoverController,
+  type FailoverReassignment,
+  type FailoverResult,
+  type SplitBrainPolicy,
+  type WorkflowCheckpoint,
+} from "./failover.js";
